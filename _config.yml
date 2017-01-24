@@ -13,9 +13,9 @@ description:         'Lessons learned in developing some useful things.'
 url:                 https://jwkcp.github.io
 baseurl:
 
-gems: [jekyll-paginate]
-paginate:            5
-paginate_path: "page:num"
+# gems: [jekyll-paginate]
+# paginate:            5
+# paginate_path: "page:num"
 
 # About/contact
 author:
@@ -25,3 +25,9 @@ author:
 
 # Custom vars
 version:             1.0.0
+motto:               'Keep looking, Don''t settle'
+
+
+gems: [jekyll-paginate]
+paginate:            5
+paginate_path: "page:num"

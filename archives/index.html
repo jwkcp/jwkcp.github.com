@@ -1,0 +1,13 @@
+---
+layout: default
+title: Archive
+---
+
+<h2>Archives</h2><small>{{ site.posts.length }}</small>
+<ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>&nbsp;&nbsp;&nbsp;<small>{{ post.date | date: '%Y.%m'}}</small>
+        </li>
+    {% endfor %}
+</ul>
