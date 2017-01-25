@@ -1,20 +1,7 @@
 /*
- *  ___
- * /\_ \
- * \//\ \      __      ___   __  __    ___     ___
- *   \ \ \   /'__`\  /' _ `\/\ \/\ \  / __`\ /' _ `\
- *    \_\ \_/\ \_\.\_/\ \/\ \ \ \_\ \/\ \_\ \/\ \/\ \
- *    /\____\ \__/.\_\ \_\ \_\/`____ \ \____/\ \_\ \_\
- *    \/____/\/__/\/_/\/_/\/_/`/___/> \/___/  \/_/\/_/
- *                               /\___/
- *                               \/__/
+ * This custom CSS code inherited from lanyon(https://github.com/poole/lanyon)
+ * Written by Tony
  *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/lanyon.
- */
-
-
-/*
  * Contents
  *
  * Global resets
@@ -25,6 +12,8 @@
  * Pagination
  * Reverse layout
  * Themes
+ *
+ * Custom code
  */
 
 
@@ -563,25 +552,43 @@ a.pagination-item:hover {
 }
 
 /* jwkcp's custom css */
-#search_box_container {
-  padding-top: 100px;
-  margin: 0 auto;
-  width: 60%;
+
+.custom-page-container {
+
 }
 
-#search_box_container h2 {
-  padding-bottom: 20px;
-  text-align: center;
-  font-weight: bold;
+.custom-page-header-box {
+  margin-bottom: 10px;
 }
 
-#search_box_container #search_keyword_box {
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+.custom-page-header-box h2 {
+  display: inline-block;
 }
 
-#search_box_container #search_button {
-  margin-left: 15px;
+.custom-page-header-box span {
+  color: #999999;
+  font-size: medium;
+  margin-left: 10px;
+}
+
+.custom-page-contents {
+  margin-bottom: 15px;
+}
+
+.custom-page-contents h3{
+  display: inline-block;
+}
+
+.custom-page-contents h3 span{
+  background-color: yellow;
+}
+
+.custom-page-numbering {
+  color: #999999;
+  margin-left: 10px;
+  font-size: medium;
+}
+
+.custom-page-listing {
+  font-size: medium;
 }

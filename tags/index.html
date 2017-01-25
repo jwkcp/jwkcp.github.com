@@ -1,0 +1,30 @@
+---
+layout: default
+title: Search
+---
+
+<div class="custom-page-container">
+  <div class="custom-page-header-box">
+    {% assign tags_size = site.tags | size %}
+    <h2>Tags</h2><span>{{ tags_size }} {% if tags_size < 1 %}{% elsif tags_size == 1 %}result{% else %}results{% endif %}</span>
+
+
+  </div>
+
+  <ul>
+    {% for tag in site.tags %}
+    <div class="custom-page-contents">
+      {% assign each_tag = tag | first | downcase %}
+      {% assign posts = tag | last | sort %}
+
+      <h3><span>{{ each_tag }}</span></h3><span class="custom-page-numbering">{{ posts | size }}</span>
+      <p>
+        {% for post in posts %}
+        {{ post.date | date: '%Y.%m'}}&nbsp;&nbsp;
+        <a href="{{ post.url }}">{{ post.title }}</a><br/>
+        {% endfor %}
+      </p>
+    </div>
+    {% endfor %}
+  </ul>
+</div>
