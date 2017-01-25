@@ -11,7 +11,7 @@ title:               Tonic
 tagline:             '''s lesson learned'
 description:         'Lessons learned in developing some useful things.'
 url:                 https://jwkcp.github.io
-baseurl:
+baseurl:             ''
 
 # gems: [jekyll-paginate]
 # paginate:            5
