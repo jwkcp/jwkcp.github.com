@@ -8,9 +8,8 @@ title: Archive
         {% assign posts = site.posts | sort %}
         {% assign post_size = posts | size %}
         <h2>Archives</h2><span>{{ post_size }} {% if post_size < 1 %}{% elsif post_size == 1 %}result{% else %}results{% endif %}</span>
-
-
     </div>
+
     <ul>
         {% for post in posts %}
             <li>

@@ -25,9 +25,12 @@ author:
 
 # Custom vars
 version:             1.0.0
-motto:               'Keep looking, Don''t settle'
+motto:               'Keep looking, Don''t settle.'
 
 
 gems: [jekyll-paginate]
 paginate:            5
 paginate_path: "page:num"
+
+# DISQUS
+page_url: jwkcp-github-io
