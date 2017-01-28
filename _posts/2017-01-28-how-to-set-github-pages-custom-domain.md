@@ -2,6 +2,7 @@
 layout: post
 title: 지킬(Jekyll)을 이용한 깃허브(Github) 페이지 커스텀 도메인 설정하기
 tags: jekyll github domain
+comments: true
 ---
 지킬(Jekyll)을 이용해 깃허브 페이지로 블로그 생성하게 되면 '사용자아이디.github.io'이 기본 도메인이 된다. 만약 'tech.개인도메인'처럼 설정하고 싶다면 아래와 같이 2가지만 설정하면 된다. 여기서는 mydomain.com을 가지고 있고 abc.mydomain.com을 깃허브 페이지에 연결한다고 가정하고 예를 들겠다.
  
