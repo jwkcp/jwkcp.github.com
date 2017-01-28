@@ -5,9 +5,9 @@ title: Archives
 
 <div class="custom-page-container">
     <div class="custom-page-header-box">
-        {% assign posts = site.posts | sort %}
+        {% assign posts = site.posts | sort | reverse %}
         {% assign post_size = posts | size %}
-        <h2>Archives</h2><span>{{ post_size }} {% if post_size < 1 %}{% elsif post_size == 1 %}result{% else %}results{% endif %}</span>
+        <span>{{ post_size }} {% if post_size < 1 %}{% elsif post_size == 1 %}result{% else %}results{% endif %}</span>
     </div>
 
     <ul>

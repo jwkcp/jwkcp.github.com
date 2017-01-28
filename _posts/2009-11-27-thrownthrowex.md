@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C# “throw”와 “throw ex” !! 도대체 뭐가 다르냐구!!
-tags: c# throw exception
+tags: c#
 comments: true
 ---
 [![이미지 출처: Umedy](https://s26.postimg.org/fymp5uc1l/88750_c444_7.jpg)](https://postimg.org/image/ye7638q5x/)

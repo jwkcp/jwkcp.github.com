@@ -6,14 +6,15 @@ title: Tags
 <div class="custom-page-container">
   <div class="custom-page-header-box">
     {% assign tags_size = site.tags | size %}
-    <h2>Tags</h2><span>{{ tags_size }} {% if tags_size < 1 %}{% elsif tags_size == 1 %}result{% else %}results{% endif %}</span>
+    <span>{{ tags_size }} {% if tags_size < 1 %}{% elsif tags_size == 1 %}result{% else %}results{% endif %}</span>
   </div>
 
   <ul>
+
     {% for tag in site.tags %}
     <div class="custom-page-contents">
       {% assign each_tag = tag | first | downcase %}
-      {% assign posts = tag | last | sort %}
+      {% assign posts = tag | last | sort | reverse %}
 
       <h3><span>{{ each_tag }}</span></h3><span class="custom-page-numbering">{{ posts | size }}</span>
       <p>
