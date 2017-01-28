@@ -599,5 +599,6 @@ a.pagination-item:hover {
 }
 
 .google-ads-divider {
-  margin: 15px auto;
+  margin: 100px auto;
+  border: 1px solid red;
 }
