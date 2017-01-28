@@ -10,7 +10,7 @@ permalink:           pretty
 title:               Tonic
 tagline:             '''s lesson learned'
 description:         'Lessons learned in developing some useful things.'
-url:                 https://jwkcp.github.io
+url:                 http://tech.jwgo.co #https://jwkcp.github.io
 baseurl:             ''
 
 # gems: [jekyll-paginate]
@@ -20,7 +20,7 @@ baseurl:             ''
 # About/contact
 author:
   name:              Tony
-  url:               https://jwkcp.github.io
+  url:               http://tech.jwgo.co
   email:             jaewoong.go@gmail.com
 
 # Custom vars
