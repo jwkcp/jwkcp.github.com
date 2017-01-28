@@ -597,3 +597,8 @@ a.pagination-item:hover {
   width: 300px;
   margin: 4em auto;
 }
+
+.google-ads-container {
+  margin: 0 auto;
+  padding: 15px 0;
+}
