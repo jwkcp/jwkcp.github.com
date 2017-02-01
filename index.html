@@ -27,25 +27,39 @@ title: Home
   {% endfor %}
 
   <br><br>
-
   {% include google_adsense.html %}
 
 </div>
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+    <!-- <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a> -->
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">이전 글</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">이전 글</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">다음 글</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">다음 글</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">다음 글</span>
   {% endif %}
 </div>
 
+<a href="{{ site.baseurl }}/archives">더 많은 글</a>을 읽어보세요.
+<hr/>
+{% for post in site.posts limit: 20 %}
+<ul>
+  {% if forloop.last %}
+  <li><a href="{{ site.baseurl }}/archives"><small>... 더 보기</small></a></li>
+  {% else %}
+    <li><a href="{{ post.url }}"><small>{{ post.title }}</small></a></li>
+  {% endif %}
+</ul>
+{% endfor %}
+
+<br><br>
+{% include google_adsense.html %}
