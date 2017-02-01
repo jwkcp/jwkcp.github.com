@@ -598,8 +598,7 @@ a.pagination-item:hover {
   margin: 4em auto;
 }
 
-.pagination-total-list {
-  display: inline-block;
+.pagination-more-posts {
   width: 100%;
   margin-top: 20px;
   padding: 20px 0 20px 0;

@@ -49,17 +49,19 @@ title: Home
   {% endif %}
 </div>
 
-<a href="{{ site.baseurl }}/archives">더 많은 글</a>을 읽어보세요.
-<hr/>
-{% for post in site.posts limit: 20 %}
-<ul>
-  {% if forloop.last %}
-  <li><a href="{{ site.baseurl }}/archives"><small>... 더 보기</small></a></li>
-  {% else %}
-    <li><a href="{{ post.url }}"><small>{{ post.title }}</small></a></li>
-  {% endif %}
-</ul>
-{% endfor %}
+<div class="pagination-more-posts">
+  <a href="{{ site.baseurl }}/archives">더 많은 글</a>을 읽어보세요.
+  <hr/>
+  {% for post in site.posts limit: 20 %}
+  <ul>
+    {% if forloop.last %}
+    <li><a href="{{ site.baseurl }}/archives"><small>... 더 보기</small></a></li>
+    {% else %}
+      <li><a href="{{ post.url }}"><small>{{ post.title }}</small></a></li>
+    {% endif %}
+  </ul>
+  {% endfor %}
+</div>
 
 <br><br>
 {% include google_adsense.html %}
