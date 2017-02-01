@@ -62,11 +62,18 @@ class ArticleCreateView(FormView):
 
 ---
 
->손손 님의 댓글 (2016-12-17 05:16 오전):
->그냥
+## Django-bootstrap3 라이브러리를 이용하는 방법
+
+django의 폼(form)을 쓰는 다른 사람들도 이런 문제때문에 골치가 아팠던 것 같다. [django-bootstrap3](https://github.com/dyve/django-bootstrap3 "django-bootstrap3")라는 깃허브 저장소에 가면 위와 같이 widget에 일일이 부트스트랩 클래스를 타이핑하지 않고도 쉽게 사용할 수 있도록 라이브러리로 만들어 둔 라이브러리가 있었다. 예를 들어, django에서 User모델의 사용자 이름 폼 필드를 부트스트랩 스타일로 만들려면 아래와 같이 하면 된다.
+
+`jekyll 문법 상 중괄호({)와 퍼센트(%)를 연속해서 쓸 수 없어 아래 코드에서는 중괄호({})와 퍼센트(%) 사이에 공백을 넣었다. 실제로는 사이의 공백을 두지 말아야 한다.`
 
 {% highlight python %}
-{^ bootstrap_form comment_form ^}  # 꺽쇠(^)를 %로 바꿀 것. jekyll에서 {와 %를 연속으로 쓸 수 없어 {^로 표현함.
+{ % load bootstrap3 % }
+{ % bootstrap_css % }
+{ % bootstrap_javascript % }
+{ % bootstrap_field form.username name="txt_username" placeholder="사용자 이름" show_label=False size='large' % }
 {% endhighlight %}
 
->하시면 되요
+[여기](http://django-bootstrap3.readthedocs.io/ "여기")를 누르면 자세한 사용법을 볼 수 있다.
+
