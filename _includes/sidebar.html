@@ -16,6 +16,9 @@
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
 
+    <a class="sidebar-nav-item" href="http://jwgo.co">About me</a>
+    <a class="sidebar-nav-item" href="https://brunch.co.kr/magazine/tiny-projects">Projects</a>
+
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
       {% if node.title != null %}
@@ -25,13 +28,11 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="#">Projects</a>
-
   </nav>
 
   <div class="sidebar-item">
     <p>
-      {{ site.motto }}
+      <a href="https://youtu.be/Hd_ptbiPoXM" target="_blank">{{ site.motto }}</a>
     </p>
   </div>
 </div>
