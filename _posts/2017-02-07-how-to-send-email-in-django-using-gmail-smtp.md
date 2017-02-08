@@ -8,7 +8,7 @@ Django에서 비밀번호 리셋 기능은 사용자의 이메일로 리셋 링�
    
 ---
 
-## 콘솔에 찍어 테스트 발송하는 방법
+## **방법1**: 콘솔에 찍어 테스트 발송하는 방법
 Django > settings.py에 아래 항목을 추가한다.
 
 {% highlight python %}
@@ -17,7 +17,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # development 
 
 --
 
-## 지메일 SMTP를 이용해 발송하는 방법
+## **방법2**: 지메일 SMTP를 이용해 발송하는 방법
 Django > settings.py에 아래 항목을 추가한다. 콘솔에 찍었던 코드는 주석처리하거나 삭제하도록 한다.
 
 {% highlight python %}
