@@ -579,10 +579,6 @@ a.pagination-item:hover {
   display: inline-block;
 }
 
-.custom-page-contents h3 span{
-  background-color: yellow;
-}
-
 .custom-page-numbering {
   color: #999999;
   margin-left: 10px;

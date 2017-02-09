@@ -16,7 +16,7 @@ title: Tags
       {% assign each_tag = tag | first | downcase %}
       {% assign posts = tag | last | sort | reverse %}
 
-      <h3><span>{{ each_tag }}</span></h3><span class="custom-page-numbering">{{ posts | size }}</span>
+      <h3><mark>{{ each_tag }}</mark></h3><span class="custom-page-numbering">{{ posts | size }}</span>
       <p>
         {% for post in posts %}
         {{ post.date | date: '%Y.%m'}}&nbsp;&nbsp;
