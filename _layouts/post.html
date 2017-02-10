@@ -5,12 +5,15 @@ layout: default
 
   {% include google_adsense.html %}
 
-  <br><br>
+  <br>
 
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date: '%Y년 %m월 %d일' }}</span>
   {{ content }}
 </div>
+
+  <br>
+  {% include google_adsense.html %}
 
 <!-- DISQUS -->
 {% if page.comments %}
@@ -32,9 +35,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <br><br>
-
-  {% include google_adsense.html %}
-
 </div>
