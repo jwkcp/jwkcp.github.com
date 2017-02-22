@@ -42,7 +42,7 @@ def my_view(request):
 ***
    
 ## 해설
-위 '사용법'의 마지막 줄을 보면 render_to_response() 함수에서는 안보이는 request 매개변수가 render() 함수에 보인다. request 변수가 없으면 렌더링된 템플릿에서 user, GET, POST, session, site 등 [유용하고 중요한 값과 메서드]("https://docs.djangoproject.com/en/1.10/ref/request-response/")를 사용하기 힘들어진다. 물론 render_to_response() 함수를 통해서도 가능한 방법은 있다. 아래처럼 context_instance를 전달해주는 것이다.
+위 '사용법'의 마지막 줄을 보면 render_to_response() 함수에서는 안보이는 request 매개변수가 render() 함수에 보인다. request 변수가 없으면 렌더링된 템플릿에서 user, session, site 등 [유용하고 중요한 값과 메서드]("https://docs.djangoproject.com/en/1.10/ref/request-response/")를 사용하기 힘들어진다. 물론 render_to_response() 함수를 통해서도 가능한 방법은 있다. 아래처럼 context_instance를 전달해주는 것이다.
 
 {% highlight python %}
 from django.shortcuts import render_to_response
