@@ -48,7 +48,7 @@ class IndexView(ListView):
 
 ---
 
-[Django 튜토리얼]("https://docs.djangoproject.com/en/1.10/intro/tutorial04/")에서는 처음부터 클래스뷰 사용법을 알려주지 않고 함수형뷰의 초기 형태에서 리팩토링하는 방법을 의도적으로 구성하고 있는데 그 이유를 다음과 같이 적고 있다.
+[Django 튜토리얼](https://docs.djangoproject.com/en/1.10/intro/tutorial04/)에서는 처음부터 클래스뷰 사용법을 알려주지 않고 함수형뷰의 초기 형태에서 리팩토링하는 방법을 의도적으로 구성하고 있는데 그 이유를 다음과 같이 적고 있다.
 
 >“Why the code-shuffle?
 
@@ -62,21 +62,7 @@ class IndexView(ListView):
 계산기를 쓰기 전에 산수부터 익혀야 하니까요.
 
 ### 4. 그럼 클래스형 뷰가 함수형 뷰를 완전히 대체하는 건가요?
-결론부터 이야기하면 그렇지 않다. 클래스형 뷰와 함수형 뷰는 상황에 따라 선택하여 쓰는 것이지 어느 한쪽을 더 진보된 형태로 말하기 힘들다. 훌륭한 Django 인사이트를 제공하는 [simpleisbetterthancomplex.com]("https://simpleisbetterthancomplex.com")의 Vitor Freitas는 클래스형 뷰보다 함수형 뷰를 더 선호한다. 여러가지 이유가 있지만 읽기 쉽고 코드의 흐름이 명료하다는 점을 그는 큰 장점으로 꼽는다. 아래는 그가 그의 사이트에서 두 뷰의 장, 단점을 비교한 것을 번역한 것이다. 원문은 [여기]("https://simpleisbetterthancomplex.com/article/2017/03/21/class-based-views-vs-function-based-views.html?utm_source=newsletter&utm_medium=email")를 누르면 볼 수 있다.
+결론부터 이야기하면 그렇지 않다. 클래스형 뷰와 함수형 뷰는 상황에 따라 선택하여 쓰는 것이지 어느 한쪽을 더 진보된 형태로 말하기 힘들다. 훌륭한 Django 인사이트를 제공하는 [simpleisbetterthancomplex.com](https://simpleisbetterthancomplex.com)의 Vitor Freitas는 클래스형 뷰보다 함수형 뷰를 더 선호한다. 여러가지 이유가 있지만 읽기 쉽고 코드의 흐름이 명료하다는 점을 그는 큰 장점으로 꼽는다. 아래는 그가 그의 사이트에서 두 뷰의 장, 단점을 비교한 것을 번역한 것이다. 원문은 [여기](https://simpleisbetterthancomplex.com/article/2017/03/21/class-based-views-vs-function-based-views.html)를 누르면 볼 수 있다.
     
-#### 함수형 뷰
-장점|단점
-----|----
-구현이 간단함|확장과 재사용이 어려움
-읽기 쉬움|조건부 분기를 통해 HTTP 메소드를 다뤄야함
-코드 흐름이 명료함|
-데코레이터의 간단한 사용|
-
-#### 클래스형 뷰
-장점|단점
-----|----
-확장과 재사용이 쉬움|읽기 어려움
-믹스인(Mixins) 다중 상속과 같은 OOP기법 사용 가능|코드 흐름이 불명확함
-HTTP 메소드를 메소드로 다룰 수 있음|부모 클래스와 믹스인에 감춰진 코드들
-내장된 제네릭 뷰의 유용성|데코레이터를 쓸 때 별도의 임포트와 메소드 오버라이딩 필요
+[![class_func_pros_and_cons.png](https://s26.postimg.org/4o57w84u1/class_func_pros_and_cons.png)](https://postimg.org/image/acbin496d/)
 
