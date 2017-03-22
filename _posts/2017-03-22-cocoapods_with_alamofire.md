@@ -5,12 +5,12 @@ tags: ios, swift, cocoapods, alamofire
 comments: true
 ---
 ## 소개
-코코아포드(cocoapods)는 스위프트(swift)와 오브젝티브씨(Objective-c) 개발에 사용되는 의존성 관리자다. 앱 개발을 하다보면 오픈소스 라이브러리의 업데이트에 따른 관리를 지속적으로 해줘야 하는데 사용하는 라이브러리가 늘어나게 되면 관리에 시간이 많이 낭비된다. 코코아포드(cocoapods)는 이런 귀찮은 일을 자동화하고 시간을 절약하게 해준다. 여러 의존성 관리자가 있지만 코코아포드(cocoapods)는 가장 널리 쓰이는 도구 중 하나이므로 처음 의존성 관리자 도구를 알아보고 있다면 믿고 사용해도 좋다. 아래는 [코코아포드(cocoapods)](https://cocoapods.org/) 사이트의 설명이다.
+코코아포드(cocoapods)는 스위프트(swift)와 오브젝티브씨(Objective-c) 개발에 사용되는 의존성 관리자입니다. 앱 개발을 하다보면 오픈소스 라이브러리의 업데이트에 따른 관리를 지속적으로 해줘야 하는데 사용하는 라이브러리가 늘어나게 되면서 관리에 드는 시간이 점점 많아집니다. 코코아포드(cocoapods)는 이런 귀찮은 일을 자동화하고 시간을 절약하게 해줍니다. 여러 의존성 관리자가 있지만 코코아포드(cocoapods)는 가장 널리 쓰이는 도구 중 하나이므로 처음 의존성 관리자 도구를 알아보고 있다면 믿고 사용해도 좋을 것 같습니다. 아래는 [코코아포드(cocoapods)](https://cocoapods.org/) 사이트의 설명입니다.
 
 >CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. It has over 29 thousand libraries and is used in over 1.8 million apps. CocoaPods can help you scale your projects elegantly.
    
 ## 설치 및 사용 방법
-코코아포드(cocoapods)가 사용된지 몇 년이 지났고 그동안 많은 업데이트가 이뤄져 왔다. 과거 수동으로 작업해야 했던 부분도 명령어 하나로 가능하도록 바뀐 부분이 있으니 인터넷에서 관련 자료를 찾고 있다면 포스팅된 날짜를 보고 너무 오래됐으면 더 간단하고 좋은 방법이 있는지 찾아보는 것도 좋겠다. 아래는 간단히 나열한 설치 방법이다.
+코코아포드(cocoapods)가 사용된지 몇 년이 지났고 그동안 많은 업데이트가 이뤄져 왔습니다. 과거 수동으로 작업해야 했던 부분도 명령어 하나로 가능하도록 바뀐 부분이 있으니 인터넷에서 관련 자료를 찾고 있다면 포스팅된 날짜를 보고 너무 오래됐으면 더 간단하고 좋은 방법이 있는지 찾아보는 것도 좋은 방법입니다. 아래는 간단히 나열한 설치 방법입니다.
 
 #### 1. 설치하기
 {% highlight shell %}
