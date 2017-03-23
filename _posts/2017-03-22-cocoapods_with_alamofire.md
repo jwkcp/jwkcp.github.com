@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 코코아포드(cocoapods) 초간단 설치 및 사용법
-tags: ios, swift, cocoapods, alamofire
+tags: ios swift cocoapods alamofire
 comments: true
 ---
 ## 소개

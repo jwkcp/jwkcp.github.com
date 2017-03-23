@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swift에서 웹뷰(webview) 탐색 코드 조각
-tags: swift, ios, code-snippet
+tags: swift ios snippet
 comments: true
 ---
 

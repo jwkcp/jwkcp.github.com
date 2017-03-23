@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swift에서 http(non-ssl) 통신 허용 설정
-tags: swift, ios, code-snippet
+tags: swift ios snippet
 comments: true
 ---
 
