@@ -72,5 +72,5 @@ cannot load underlying module for 'alamofire'라는 에러가 발생할 수 있�
   
 1. [코코아포드(cocoapods)](https://cocoapods.org/)
 2. [Alamofire Github](https://github.com/Alamofire/Alamofire)
-3. [SwiftJSON Github](https://github.com/SwiftyJSON/SwiftyJSON)
+3. [SwiftyJSON Github](https://github.com/SwiftyJSON/SwiftyJSON)
   
