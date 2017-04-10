@@ -2,17 +2,28 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css" rel="stylesheet">
+            #container {
+                width: 100%;
+                height: 100%;
+                background: red;
+                border: 1px solid blue;
+            }
+        </style>
     </head>
-    <body>
-        <input type="text" id="sample4_postcode" placeholder="우편번호">
-        <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"><br>
-        <input type="text" id="sample4_roadAddress" placeholder="도로명주소">
-        <input type="text" id="sample4_jibunAddress" placeholder="지번주소">
-        <span id="guide" style="color:#999"></span>
+    <body onload="sample4_execDaumPostcode()">
+        <div id="container">
+
+        </div>
+
+
 
 
         <script src="https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js"></script>
         <script>
+
+            var container = document.getElementById('container');
+
             //본 예제에서는 도로명 주소 표기 방식에 대한 법령에 따라, 내려오는 데이터를 조합하여 올바른 주소를 구성하는 방법을 설명합니다.
             function sample4_execDaumPostcode() {
                 new daum.Postcode({
@@ -60,8 +71,16 @@
                         } else {
                             document.getElementById('guide').innerHTML = '';
                         }
+
+                        var postData = {
+                            postcode : data.postcode,
+                            zonecode : data.zonecode,
+                            addr : fullRoadAddr
+                        };
+
+                        window.webkit.messageHandlers.callBackHandler.postMessage(postData);
                     }
-                }).open();
+                }).embed(container);
             }
         </script>
     </body>
