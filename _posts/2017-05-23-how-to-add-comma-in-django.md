@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Django 템플릿에서 세 자리마다 숫자에 콤마 찍기
-tags: django, humanize
+tags: django, humanize, how-to
 comments: true
 ---
 
@@ -32,4 +32,4 @@ INSTALLED_APPS = [
 
 ---
 
-이 외에도 1을 one으로 바꾼다던지, 1000000을 1.0 million으로 바꾸는 등 다양한 기능이 humanize에 포함되어 있다. 더 많은 정보는 [여기]("https://docs.djangoproject.com/en/1.11/ref/contrib/humanize/")를 참조할 것.
+이 외에도 1을 one으로 바꾼다던지, 1000000을 1.0 million으로 바꾸는 등 다양한 기능이 humanize에 포함되어 있다. 더 많은 정보는 [여기]("https://docs.djangoproject.com/en/1.11/ref/contrib/humanize/")를 참고하세요.
