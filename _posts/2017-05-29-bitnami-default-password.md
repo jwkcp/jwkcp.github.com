@@ -13,7 +13,7 @@ comments: true
 [![bitnami-lightsail.png](https://s26.postimg.org/5099xec8p/bitnami-lightsail.png)](https://postimg.org/image/n32com839/)
 ---    
 ![ls-tutorial-image210-7749d305.png](https://docs.bitnami.com/images/img/platforms/aws/ls-tutorial-image210-7749d305.png)
-*[이미지 출처: Bitnami webpage]("https://docs.bitnami.com/aws/get-started-lightsail/")*
+*[이미지 출처: Bitnami webpage](https://docs.bitnami.com/aws/get-started-lightsail/)*
 
 ---
 
@@ -25,4 +25,4 @@ comments: true
 ---
 
 
-비트나미(bitnami)의 공식 문서는 [여기]("https://docs.bitnami.com/aws/get-started-lightsail/")를 참고하세요.
+비트나미(bitnami)의 공식 문서는 [여기](https://docs.bitnami.com/aws/get-started-lightsail/)를 참고하세요.

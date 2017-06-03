@@ -23,4 +23,4 @@ Django를 이용해서 Textarea 폼에서 개행을 포함한 값을 입력받�
 
 ---
 
-Django의 내장 템플릿 태그에 관한 더 많은 정보는 [여기]("https://docs.djangoproject.com/en/1.11/ref/templates/builtins/")를 참고하세요.
+Django의 내장 템플릿 태그에 관한 더 많은 정보는 [여기](https://docs.djangoproject.com/en/1.11/ref/templates/builtins/)를 참고하세요.
