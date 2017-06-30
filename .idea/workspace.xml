@@ -1,72 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b0652ec-4279-4863-979a-75e2465bbad6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deleteme" afterPath="$PROJECT_DIR$/deleteme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+    <list default="true" id="8b0652ec-4279-4863-979a-75e2465bbad6" name="Default" comment="push test">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/TMP.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jwkcp.github.com.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/TMP.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/TMP.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jwkcp.github.com.iml" afterPath="$PROJECT_DIR$/.idea/jwkcp.github.com.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__about.md" afterPath="$PROJECT_DIR$/__about.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_drafts/2013-12-31-whats-jekyll.md" afterPath="$PROJECT_DIR$/_drafts/2013-12-31-whats-jekyll.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_drafts/2014-01-01-example-content.md" afterPath="$PROJECT_DIR$/_drafts/2014-01-01-example-content.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_drafts/2014-01-02-introducing-lanyon.md" afterPath="$PROJECT_DIR$/_drafts/2014-01-02-introducing-lanyon.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_drafts/2017-02-03-recommended-free-ssl.md" afterPath="$PROJECT_DIR$/_drafts/2017-02-03-recommended-free-ssl.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_drafts/2017-02-03-startup-steps.md" afterPath="$PROJECT_DIR$/_drafts/2017-02-03-startup-steps.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_drafts/prologue.md" afterPath="$PROJECT_DIR$/_drafts/prologue.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_drafts/가상서버호스팅-vps-6종-트렌드-비교.html" afterPath="$PROJECT_DIR$/_drafts/가상서버호스팅-vps-6종-트렌드-비교.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/disqus.html" afterPath="$PROJECT_DIR$/_includes/disqus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/google_adsense.html" afterPath="$PROJECT_DIR$/_includes/google_adsense.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/google_adsense_page_level.html" afterPath="$PROJECT_DIR$/_includes/google_adsense_page_level.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/google_analytics.html" afterPath="$PROJECT_DIR$/_includes/google_analytics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2009-11-27-thrownthrowex.md" afterPath="$PROJECT_DIR$/_posts/2009-11-27-thrownthrowex.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-08-heroku-django-tips-for-beginner.md" afterPath="$PROJECT_DIR$/_posts/2016-09-08-heroku-django-tips-for-beginner.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-12-how-to-deploy-local-django-app-to-vps-digitalocean.md" afterPath="$PROJECT_DIR$/_posts/2016-09-12-how-to-deploy-local-django-app-to-vps-digitalocean.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-18-aws-at-a-glance.md" afterPath="$PROJECT_DIR$/_posts/2016-09-18-aws-at-a-glance.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-18-saas-12factor.md" afterPath="$PROJECT_DIR$/_posts/2016-09-18-saas-12factor.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-10-16-bootstrap-css-not-working-properly.md" afterPath="$PROJECT_DIR$/_posts/2016-10-16-bootstrap-css-not-working-properly.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-07-how-to-use-supervisor-in-one-minute.md" afterPath="$PROJECT_DIR$/_posts/2016-11-07-how-to-use-supervisor-in-one-minute.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-08-python-jango-why-generic-views.md" afterPath="$PROJECT_DIR$/_posts/2016-11-08-python-jango-why-generic-views.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-18-django-testcase-rules-of-thumb.md" afterPath="$PROJECT_DIR$/_posts/2016-11-18-django-testcase-rules-of-thumb.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-25-applying-bootstrap-style-to-django-forms.md" afterPath="$PROJECT_DIR$/_posts/2016-11-25-applying-bootstrap-style-to-django-forms.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-26-django-login-validation-check.md" afterPath="$PROJECT_DIR$/_posts/2016-11-26-django-login-validation-check.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-26-just-one-things-django-form.md" afterPath="$PROJECT_DIR$/_posts/2016-11-26-just-one-things-django-form.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-27-play-effect-sound-in-swift.md" afterPath="$PROJECT_DIR$/_posts/2016-11-27-play-effect-sound-in-swift.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-29-json-parsing-in-swift.md" afterPath="$PROJECT_DIR$/_posts/2016-11-29-json-parsing-in-swift.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-12-22-drf-view-at-a-glance.md" afterPath="$PROJECT_DIR$/_posts/2016-12-22-drf-view-at-a-glance.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-12-22-drf-workflow.md" afterPath="$PROJECT_DIR$/_posts/2016-12-22-drf-workflow.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-12-30-google-site-verification-problem.md" afterPath="$PROJECT_DIR$/_posts/2016-12-30-google-site-verification-problem.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-03-aws-apache-websvr-permissions.md" afterPath="$PROJECT_DIR$/_posts/2017-01-03-aws-apache-websvr-permissions.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-03-aws-vpc-configure-with-rds.md" afterPath="$PROJECT_DIR$/_posts/2017-01-03-aws-vpc-configure-with-rds.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-05-how-to-delete-aws-s3-bucket.md" afterPath="$PROJECT_DIR$/_posts/2017-01-05-how-to-delete-aws-s3-bucket.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-11-aws-s3-static-hosting-pbm-with-route53.md" afterPath="$PROJECT_DIR$/_posts/2017-01-11-aws-s3-static-hosting-pbm-with-route53.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-13-aws-codecommit-git-error-403.md" afterPath="$PROJECT_DIR$/_posts/2017-01-13-aws-codecommit-git-error-403.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-28-how-to-set-github-pages-custom-domain.md" afterPath="$PROJECT_DIR$/_posts/2017-01-28-how-to-set-github-pages-custom-domain.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-02-01-django-auth-diagram-with-usermodel.md" afterPath="$PROJECT_DIR$/_posts/2017-02-01-django-auth-diagram-with-usermodel.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-02-07-how-to-send-email-in-django-using-gmail-smtp.md" afterPath="$PROJECT_DIR$/_posts/2017-02-07-how-to-send-email-in-django-using-gmail-smtp.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-02-22-django-social-auth-values_check.md" afterPath="$PROJECT_DIR$/_posts/2017-02-22-django-social-auth-values_check.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-02-22-wtdb-render-render-to-response.md" afterPath="$PROJECT_DIR$/_posts/2017-02-22-wtdb-render-render-to-response.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-03-22-cocoapods_with_alamofire.md" afterPath="$PROJECT_DIR$/_posts/2017-03-22-cocoapods_with_alamofire.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-03-22-ios-swift-http-allow.md" afterPath="$PROJECT_DIR$/_posts/2017-03-22-ios-swift-http-allow.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-03-22-ios-swift-webview-simple-navi.md" afterPath="$PROJECT_DIR$/_posts/2017-03-22-ios-swift-webview-simple-navi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-03-31-useful-shortcut-in-xcode.md" afterPath="$PROJECT_DIR$/_posts/2017-03-31-useful-shortcut-in-xcode.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-05-23-how-to-add-comma-in-django.md" afterPath="$PROJECT_DIR$/_posts/2017-05-23-how-to-add-comma-in-django.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-05-26-how-to-textarea-newline.md" afterPath="$PROJECT_DIR$/_posts/2017-05-26-how-to-textarea-newline.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-05-29-bitnami-default-password.md" afterPath="$PROJECT_DIR$/_posts/2017-05-29-bitnami-default-password.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-03-aws-route53-ns.md" afterPath="$PROJECT_DIR$/_posts/2017-06-03-aws-route53-ns.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-15-aws-rds-workbench.md" afterPath="$PROJECT_DIR$/_posts/2017-06-15-aws-rds-workbench.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/index.html" afterPath="$PROJECT_DIR$/archives/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmark/index.html" afterPath="$PROJECT_DIR$/bookmark/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/googlea0e552170e8bd98e.html" afterPath="$PROJECT_DIR$/googlea0e552170e8bd98e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/postcode.html" afterPath="$PROJECT_DIR$/postcode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap.xml" afterPath="$PROJECT_DIR$/sitemap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/index.html" afterPath="$PROJECT_DIR$/tags/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -102,7 +45,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="315">
-                <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -110,11 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="300">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding>
+                <marker date="1498810558000" expanded="true" signature="616:625" ph="http://jw" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-11-26-just-one-things-django-form.md" />
         <option value="$PROJECT_DIR$/_posts/2016-11-27-play-effect-sound-in-swift.md" />
         <option value="$PROJECT_DIR$/_posts/2016-11-29-json-parsing-in-swift.md" />
         <option value="$PROJECT_DIR$/_posts/2016-12-22-drf-view-at-a-glance.md" />
@@ -216,6 +170,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-06-03-aws-route53-ns.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-15-aws-rds-workbench.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -248,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,20 +300,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jwkcp.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jwkcp.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -407,7 +349,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -586,28 +527,9 @@
       <workItem from="1496460240484" duration="2084000" />
       <workItem from="1497511623848" duration="2213000" />
       <workItem from="1498808484671" duration="404000" />
-      <workItem from="1498809011767" duration="433000" />
-    </task>
-    <task id="LOCAL-00051" summary="애드센스 코드 수정">
-      <created>1486027488468</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1486027488470</updated>
-    </task>
-    <task id="LOCAL-00052" summary="구글 애널리스틱 코드 수정">
-      <created>1486027783747</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1486027783747</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Upload Googlel Search Console html file">
-      <created>1486028350231</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1486028350231</updated>
+      <workItem from="1498809011767" duration="846000" />
+      <workItem from="1498810677472" duration="215000" />
+      <workItem from="1498810904062" duration="34000" />
     </task>
     <task id="LOCAL-00054" summary="about me를 jwgo.co 랜딩 페이지로 연결&#10;프로젝트를 브런치 매거진으로 연결&#10;motto에 스티브잡스 동영상 링크 추가">
       <created>1486231375051</created>
@@ -931,11 +853,32 @@
       <option name="project" value="LOCAL" />
       <updated>1497514968949</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="push test">
+      <created>1498810475860</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1498810475861</updated>
+    </task>
+    <task id="LOCAL-00101" summary="사이트 주소 변경">
+      <created>1498810619967</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1498810619967</updated>
+    </task>
+    <task id="LOCAL-00102" summary="modify gitignore file">
+      <created>1498810768883</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1498810768883</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134285000" />
+    <option name="totallyTimeSpent" value="134947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -943,16 +886,16 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2470238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2327044" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19392033" sideWeight="0.45520833" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24868836" sideWeight="0.49761903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -971,9 +914,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="각 페이지에도 댓글을 달 수 있도록 DISQUS 추가" />
-    <MESSAGE value="각 포스트 하단에 광고 위치 변경" />
-    <MESSAGE value="bookmark 내용 추가" />
     <MESSAGE value="bookmark 내용  변경" />
     <MESSAGE value="bookmark 예제로 배우는 Python 프로그래밍 추가" />
     <MESSAGE value="북마크 추가&#10;모든 북마크 새창으로 열리도록 수정" />
@@ -996,20 +936,16 @@
     <MESSAGE value="New post&#10;링크오류수정" />
     <MESSAGE value="중요 문장 강조 표시" />
     <MESSAGE value="새 포스팅" />
-    <option name="LAST_COMMIT_MESSAGE" value="새 포스팅" />
+    <MESSAGE value="push test" />
+    <MESSAGE value="사이트 주소 변경" />
+    <MESSAGE value="modify gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify gitignore file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2016-11-26-just-one-things-django-form.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-11-27-play-effect-sound-in-swift.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1203,12 +1139,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-01-03-aws-apache-websvr-permissions.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2016-12-30-google-site-verification-problem.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-03-aws-route53-ns.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1218,28 +1148,44 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-15-aws-rds-workbench.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <marker date="1498810558000" expanded="true" signature="616:625" ph="http://jw" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
