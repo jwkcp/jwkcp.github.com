@@ -28,7 +28,7 @@ version:             1.0.0
 motto:               'Keep looking, Don''t settle.'
 
 
-# gems: [jekyll-paginate]
+# gems: [jekyll-paginate] ^^
 plugins: [jekyll-paginate]
 paginate:            1
 paginate_path: "page:num"
