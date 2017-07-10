@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ufw 간단한 설치, 사용법
-tags: how-to, raspberrypi
+tags: how-to, ufw, ubuntu
 comments: true
 ---
 
