@@ -30,7 +30,7 @@ comments: true
 (성공) http://localhost:8000/accounts/login
 
 ### 결론   
-'Strict 모드'를 비활성화하고 2번 방벙을 사용하거나 'Strict 모드'를 활성화하고 1번 방법을 사용한다.   
+'Strict 모드'를 비활성화하고 2번 방법을 사용하거나 'Strict 모드'를 활성화하고 1번 방법을 사용한다.   
 페이스북에서는 1번 방법을 권장하고 있다.
 
 --
