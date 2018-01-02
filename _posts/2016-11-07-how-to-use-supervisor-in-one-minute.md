@@ -51,7 +51,7 @@ exec /home/user/.virtualenvs/my_venv/bin/gunicorn -b 0.0.0.0:8081 myapp.wsgi:app
 ## 구동
 
 1. apt-get 명령으로 설치했을 경우: service supervisor restart
-2. pip로 설치했을 경우: supervisor -c 설정파일위치
+2. pip로 설치했을 경우: supervisord -c '설정파일위치'
 
 ## 관리
 
