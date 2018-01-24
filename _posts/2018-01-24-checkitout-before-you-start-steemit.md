@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 스팀잇(steemit)을 시작하기 전에 반드시 알아야 한가지
+title: 스팀잇(steemit)을 시작하기 전에 반드시 알아야 할 한가지
 tags: steemit, how-to 
 comments: true    
 ---
