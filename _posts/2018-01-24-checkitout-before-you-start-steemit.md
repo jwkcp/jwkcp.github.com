@@ -21,6 +21,8 @@ comments: true
 >**Can I delete something I posted?**
 >The blockchain will always contain the full edit history of posts and comments, so it can never be completely deleted. >If you would like to update a post so that users cannot see the content via Steemit.com, you can edit the post and >replace it with blank content for as long as the post is active. After seven days, the post can no longer be edited.
    
+***
+
 이런 사실을 인지한 상태에서 스팀잇을 시작하는 것과 그렇지 않은 것은 천지차이다. 자신의 개인정보, 사생활이 담긴 사진, 금융정보, 민간정보 등 스팀잇에 기록한 후에는 돌이킬 수 없다. 그야말로 말이 돌이 되는 것이다. 잊혀질 권리에 대해 민감한 사람이라면 스팀잇의 이런 특징을 충분히 숙지하고 시작한다 해도 늦지 않다.
        
        
