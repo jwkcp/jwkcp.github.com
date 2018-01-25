@@ -14,11 +14,13 @@ comments: true
 그렇다 해도 잠시 숨을 돌리고 이 글을 읽어보자. 스팀잇 계정을 만들기 전에 반드시 알아두어야 할 것이 있기 때문이다. **스팀잇에서는 계정 삭제 및 비활성화가 불가능하고, 남긴 글을 수정, 삭제하는 것도 불가능하다.** 당연하다고 생각했던 기능이 스팀잇에서는 불가능한 것이다. 각 포스팅과 그에 따른 보상을 블록에 기록하여 엮어두면서(체인) 생기는 블록체인의 특징이라고 볼 수 있겠다. 정확히 말하자면 작성 후 7일이 지나면 포스팅은 수정이 불가능한 상태가 된다. 아래는 계정 삭제 및 비활성화, 그리고 포스팅 수정, 삭제에 대한 [공식 답변](https://steemit.com/faq.html)이다.
 
 ##### 계정 삭제 및 비활성화에 대해
->Can I delete or deactivate my account?
+>**Can I delete or deactivate my account?**  
+>  
 >Accounts can not be deactivated or deleted. The account along with all of its activity is permanently stored in the >blockchain.
 
 ##### 포스팅 수정 및 삭제에 대해
 >**Can I delete something I posted?**
+>  
 >The blockchain will always contain the full edit history of posts and comments, so it can never be completely deleted. >If you would like to update a post so that users cannot see the content via Steemit.com, you can edit the post and >replace it with blank content for as long as the post is active. After seven days, the post can no longer be edited.
    
 ***
