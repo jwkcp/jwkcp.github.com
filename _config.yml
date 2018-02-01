@@ -35,3 +35,7 @@ paginate_path: "page:num"
 
 # DISQUS
 page_url: jwkcp-github-io
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
