@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 맥 사용자가 비주얼 스튜디오 코드(Visual studio code, VSCode)에서 열편집하는 방법
+title: 맥 사용자가 비주얼 스튜디오 코드(Visual studio code, VSCode)에서 열 편집하는 방법
 tags: tools, vscode, how-to
 comments: true
 ---
