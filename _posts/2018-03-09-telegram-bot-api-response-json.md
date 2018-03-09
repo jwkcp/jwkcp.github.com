@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 텔레그램(telegram) 봇 API 응답 JSON에 어떤 값이 있는지 살펴보기
+title: 텔레그램(telegram) 봇 API 응답 값 살펴보기
 tags: telegram, bot
 comments: true
 ---
