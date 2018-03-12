@@ -114,3 +114,25 @@ lambda는 그 자체만으로는 아무것도 할 수 없다. 무언가 lambda�
 **API 배포**  
 이렇게 만든 API 게이트웨이의 메서드 목록 위쪽에 '작업' 드롭다운 버튼을 누르면 API 배포가 보인다. API 배포를 하면 이제 실제 외부에서 호출할 수 있는 상태가 된다. 이 주소가 https이니 이 주소를 텔레그램 웹훅 주소르 등록해주면 된다.
   
+**관련 라이브러리**  
+1. [teleport](https://github.com/nickoala/telepot)
+2. [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot)
+    - [매뉴얼](http://python-telegram-bot.readthedocs.io/en/stable/index.html)
+    - [초간단 예제](https://python-telegram-bot.org/)
+  
+3. [lambdagram](https://github.com/jwkcp/lambdagram): 서버없는 백엔드 서비스인 AWS lambda에서 웹훅을 이용해 간단히 메시지를 주고 받을 수 있는 라이브러리  
+    ~~~
+    pip install lambdagram
+    ~~~
+     
+    ~~~
+    from lambdagram.bot import Bot
+
+
+    TOKEN = "THE TOKEN YOU GOT FROM @BotFather"
+    
+    def lambda_handler(event, context): # Basic function signature on AWS lambda 
+        
+        bot = Bot(TOKEN)
+        bot.send_message(event, "THE MESSAGE YOU WANT TO SEND")
+    ~~~
