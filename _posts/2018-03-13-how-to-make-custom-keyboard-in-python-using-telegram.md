@@ -29,3 +29,6 @@ https://api.telegram.org/bot{TOKEN}/sendmessage?text={MESSAGE}&chat_id={CHATID}&
 ## 결과
 그러면 아래와 같이 나온다.  
 ![Keyboard Example](https://core.telegram.org/file/811140733/2/KoysqJKQ_kI/a1ee46a377796c3961)
+  
+## 참고 자료
+[https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating](https://core.telegram.org/bots#inline-keyboards-and-on-the-fly-updating)
