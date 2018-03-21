@@ -42,6 +42,7 @@ comments: true
   
 <!-- 이스케이프 끄기: html 코드가 예쁘게 렌더링되어 보임 -->
 {{ password1.help_text|safe }}
+~~~
   
 ---
   
