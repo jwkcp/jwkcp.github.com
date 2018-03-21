@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 크롬 강제 새로고침하는 방법
+title: 크롬(chrome) 강제 새로고침하는 방법
 tags: how-to, chrome
 comments: true
 ---

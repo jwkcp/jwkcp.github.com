@@ -24,12 +24,14 @@ comments: true
 장고는 기본적으로 이스케이프 기능이 활성화 되어 있다. 그래서 password1의 help_text가 브라우저에 렌더링되지 않고 그대로 보일 수 있었던 것이다. 아래와 같이 2가지 방법으로 html 코드 그대로가 아닌 렌더링된 모습을 보이도록 할 수 있다.   
   
 #### 태그(Tag) 사용하기
+> 아래 ( 기호를 { 으로 바꾸고 사용하세요.
 ~~~
+
 <!-- 이스케이프 켜기: html 코드가 그대로 보임 -->
-{% autoescape on %}{{ password1.help_text }}{% endautoescape %}
+(% autoescape on %){{ password1.help_text }}(% endautoescape %)
   
 <!-- 이스케이프 끄기: html 코드가 예쁘게 렌더링되어 보임 -->
-{% autoescape off %}{{ password1.help_text }}{% endautoescape %}
+(% autoescape off %){{ password1.help_text }}(% endautoescape %)
 ~~~
   
 #### 필터(filter) 사용하기
