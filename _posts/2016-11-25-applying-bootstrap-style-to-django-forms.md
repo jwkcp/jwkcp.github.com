@@ -76,4 +76,28 @@ django의 폼(form)을 쓰는 다른 사람들도 이런 문제때문에 골치�
 {% endhighlight %}
 
 [여기](http://django-bootstrap3.readthedocs.io/ "여기")를 누르면 자세한 사용법을 볼 수 있다.
+  
+---
+  
+# 2018년 3월 23일 업데이트
+부트스트랩을 장고 폼에 적용시킬 때 여러 방법이 있지만 쓰다보니 자주 쓰게되는 방법이 있어 아래에 추가로 기록해둔다. 이와 관련된 장고 공식 문서는 [여기](https://docs.djangoproject.com/en/2.0/ref/forms/widgets/#customizing-widget-instances)를 참고하면 된다.
+  
+## 모델폼을 이용해서 폼을 만드는 경우
+이 경우 기존에 모델에서 작성한 필드를 추가 코딩하는 번거로움 없이 models 필드에 대입만 해주면 되는 케이스다.  
+  
+~~~
+def __init__(self, *args, **kwargs):
+    
+    # 다른 폼을 상속 받아서 쓰는 경우라면 super를 이용해 상위 클래스의 생성자를 호출해주도록 한다. 그렇지 않다면 아래 super로 시작하는 줄은 필요없다.
+    super(SignupFormForBusiness, self).__init__(*args, **kwargs) 
+
+    self.fields['username'].widget.attrs.update({'class': 'form-control', 'placeholder': '아이디'})
+~~~
+  
+## 모델에 없는 폼 필드를 사용하는 경우
+이 경우는 폼 클래스에 필드를 직접 정의해주는 경우다.
+  
+~~~
+job = forms.CharField(max_length=30, widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': '직업'}), help_text='설명을 여기에 쓸 수 있습니다.')
+~~~
 
