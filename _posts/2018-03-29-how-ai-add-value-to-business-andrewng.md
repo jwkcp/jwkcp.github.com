@@ -5,6 +5,8 @@ tags: writing, ai
 comments: true
 ---
   
+[![2018-03-29_6.37.31.png](https://s26.postimg.org/oq8zit2zd/2018-03-29_6.37.31.png)](https://www.mckinsey.com/global-themes/artificial-intelligence/how-artificial-intelligence-and-data-add-value-to-businesses)
+
 많은 사람들이 인공지능(이하 AI)이 우리의 미래를 바꿀 놀라운 기술이 될 것이란 예상을 한다. 그에 반해 필요한 전문 지식을 배운다거나 수익화로 연결짓는 부분에선 여전히 안개 속을 헤매는 중이다. 맥킨지([mckinsey.com](https://www.mckinsey.com))가 인공지능과 데이터가 어떻게 비즈니스에 도움을 주는가에 대한 주제로 앤드류 응(Andrew Ng)교수님의 인터뷰를 실었다. 그냥 AI를 활용하는 회사와 진짜 AI회사가 어떻게 다른지, 기업 조직 구성과 채용 그리고 AI를 더 쓸모있게 만드는 방법이 뭔지 등에 대해 앤드류 응 교수님이 이야기 한다. 인터뷰를 보고 간단히 메모.
   
 ---
@@ -32,7 +34,7 @@ AI는 다수 기업을 탈바꿈시킬 것이며 새로운 기업의 등장도 �
 #### AI 기업이 되기 위한 전략
 진짜 AI 기업이 되기 위해선 좀 더 정교하고 치밀한 데이터 수집 전략이 필요. 무턱대고 데이터를 모으고 또 그냥 버리고 이런 식으로는 진짜 AI 기업이 될 수 없음. 제품 출시 후 쌓인 데이터를 이용해 제품을 개선하고 다시 데이터를 모아 좀 더 개선하고 하는 선순환 구조를 만들어 사용자에게 훌륭한 경험을 줄 수 있도록 해야 함. 이런 식의 선순환 구조가 몇 년간 지속되면 경쟁 기업은 당신을 이기기 정말 힘들어짐. 구글과 같은 검색엔진 기업이 좋은 예. 구글은 사용자들이 특정 키워드를 검색한 다음 어떤 링크를 누르는지에 대한 엄청나게 귀중한 정보를 계속 쌓고 있으며 다시 제품에 반영하는 선순환 구조를 가지고 있음. 
   
-*원문: https://www.mckinsey.com/global-themes/artificial-intelligence/how-artificial-intelligence-and-data-add-value-to-businesses*
+*원문: [https://www.mckinsey.com/global-themes/artificial-intelligence/how-artificial-intelligence-and-data-add-value-to-businesses](https://www.mckinsey.com/global-themes/artificial-intelligence/how-artificial-intelligence-and-data-add-value-to-businesses)*
 
 
 
