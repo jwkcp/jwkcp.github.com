@@ -6,14 +6,10 @@ layout: default
 
   {% include google_adsense.html %}
 
-  <br><br>
-
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
 
-  <br><br>
-
-  {% include google_adsense.html %}
+  {% include google_adsense_text.html %}
 
   <!-- DISQUS -->
   {% if page.comments %}
@@ -21,4 +17,5 @@ layout: default
   {% endif %}
   <!-- DISQUS END -->
 
+  {% include google_adsense.html %}
 </div>
