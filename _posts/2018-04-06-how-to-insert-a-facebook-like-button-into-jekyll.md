@@ -41,7 +41,7 @@ comments: true
 data-href="{{ site.url}}{{ page.url }}"
 ~~~
   
-{{ site.url }}은 _config.yml에서 지정한 값으로 가지고 온다. (e.g. https://mydomain.com)  
-{{ page.url }}은 현재 읽고 있는 포스팅 상대주소 값이다. (e.g. /2018/01/01/myposting.html)
+**site.url** 은 _config.yml에서 지정한 값으로 가지고 온다. (e.g. https://mydomain.com)  
+**page.url** 은 현재 읽고 있는 포스팅 상대주소 값이다. (e.g. /2018/01/01/myposting.html)
   
 이걸 합치면 https://mydomain.com/2018/01/01/myposting.html 이 되고 페이스북 좋아요 버튼 코드에 이 주소가 들어가게 된다.
