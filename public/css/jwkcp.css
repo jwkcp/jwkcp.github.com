@@ -609,3 +609,19 @@ a.pagination-item:hover {
   color: gray;
   text-align: center;
 }
+
+.fb-like {
+  top: -4px;
+  margin-left: 6px;
+}
+
+.project-item {
+  min-height: 200px;
+  margin-left: 1px;
+  margin-bottom: 15px;
+
+  background-color: white;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 5px lightgrey;
+}
