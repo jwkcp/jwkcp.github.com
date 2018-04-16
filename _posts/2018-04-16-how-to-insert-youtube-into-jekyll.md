@@ -5,7 +5,7 @@ tags: jekyll
 comments: true
 ---
   
---
+---
   
 지킬(jekyll)로 만든 깃허브 블로그에 유튜브 비디오를 삽압하고 싶다면 아래와 같이 하면 된다.
   

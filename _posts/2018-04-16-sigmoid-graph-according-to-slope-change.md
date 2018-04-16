@@ -5,7 +5,7 @@ tags: deeplearning
 comments: true
 ---
   
---
+---
   
 아래는 시그모이드(Sigmoid) 함수의 기울기와 편향에 따라 그래프가 어떻게 변하는지 확인해보고 직접 녹화한 영상이다.
   
