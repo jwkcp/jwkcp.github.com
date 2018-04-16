@@ -23,6 +23,8 @@ ModuleNotFoundError: No module named 'mysite.polls'
 ## 원인
 파이참에서 테스트 케이스 실행환경이 잘 설정되어 있지 않아서 그렇다. 일반적으로 settings.py 기본값으로 사용할 경우 발생하지 않을 수도 있는데 settings.py를 settings 폴더에 넣고 dev.py와 prod.py로 나눠서 사용하는 사람의 경우 발생할 가능성이 높다.
   
+---
+
 ## 해결방법
 1. 파이참에서 'Run > Edit Configurations...'에 들어간 후
 2. 'Django tests'에서 작성한 테스트 케이스 선택 or 이후에 작성한 테스트 케이스도 동일하게 만들고 싶으면 'Defaults' 이용
