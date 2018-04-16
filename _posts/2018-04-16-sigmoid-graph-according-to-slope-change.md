@@ -11,12 +11,19 @@ comments: true
   
 > sigmoid = 1 / (1 + e^(ax + b))
   
-기울기가 -10부터 10까지 변했을 때 시그모이드(Sigmoid) 함수 변화 (b = 0)
-<iframe width="420" height="315" src="https://youtu.be/3uN-cNo0xlc" frameborder="0" allowfullscreen></iframe>
+---
+   
+**기울기**가 **-10부터 10**까지 변했을 때 시그모이드(Sigmoid) 함수 변화 (b = 0)
+[![https://media.giphy.com/media/4PUlqMMbuPTZFmkUpz/giphy.gif](https://media.giphy.com/media/4PUlqMMbuPTZFmkUpz/giphy.gif)](https://media.giphy.com/media/4PUlqMMbuPTZFmkUpz/giphy.gif)
   
-기울기가 -10부터 10까지 변했을 때 시그모이드(Sigmoid) 함수 변화 (b = 0)
-<iframe width="420" height="315" src="https://youtu.be/kEnyv1w_9eU" frameborder="0" allowfullscreen></iframe>
+---
+
+**기울기**가 **-100부터 100**까지 변했을 때 시그모이드(Sigmoid) 함수 변화 (b = 0)
+[![https://media.giphy.com/media/9ryMAl8PJr4PE35HMk/giphy.gif](https://media.giphy.com/media/9ryMAl8PJr4PE35HMk/giphy.gif)](https://media.giphy.com/media/9ryMAl8PJr4PE35HMk/giphy.gif)
   
-편향이 -10부터 10까지 변했을 때 시그모이드(Sigmoid) 함수 변화  
-<iframe width="420" height="315" src="https://youtu.be/5w8kIJZXRdE" frameborder="0" allowfullscreen></iframe>
+---
+
+**편향**이 **-10부터 10**까지 변했을 때 시그모이드(Sigmoid) 함수 변화  
+[![https://media.giphy.com/media/69Ejfrqzz7mACzGjeN/giphy.gif](https://media.giphy.com/media/69Ejfrqzz7mACzGjeN/giphy.gif)](https://media.giphy.com/media/69Ejfrqzz7mACzGjeN/giphy.gif)
   
+    
