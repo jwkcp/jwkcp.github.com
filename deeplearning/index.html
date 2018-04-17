@@ -4,7 +4,36 @@ title: Deeplearning
 comments: true
 ---
 
+<!-- <script type="javascript">
+    new Vue({
+        el: '#article_list',
+        data: {
+            message: 'hello, world'
+        }
+    })
+</script>
 
-{% for item in site.deeplearningitem %}
-    {{ item }}
-{% endfor %}
+<div id="article_list">
+    <li>
+        <ol>{{ message }}</ol>
+    </li>
+</div> -->
+
+
+
+<script src="https://unpkg.com/vue"></script>
+
+
+
+<div id="app">
+  <p>{{ message }}</p>
+</div>
+
+<script>
+  new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue.js!'
+    }
+  })
+</script>
