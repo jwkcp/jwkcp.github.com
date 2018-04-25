@@ -11,6 +11,8 @@ comments: true
   
 터치바가 있는 맥북프로에 외장 모니터를 연결해 사용하려면 모니터는 당연하고 [USB-C Digital AV Multiport 어댑터](https://www.apple.com/kr/shop/product/MJ1K2FE/A/usb-c-digital-av-multiport-%EC%96%B4%EB%8C%91%ED%84%B0)와 같은 usb-c to hdmi 같은 케이블이 필요하다. 정품 커텍터는 애플 사이트에서 8.9만원이다.  
   
+맥에서 활성 그래픽 카드를 선택할 수 있도록 도와주는 [gfxCardStatus](https://github.com/steveschow/gfxCardStatus)라는 프로그램도 있지만 외장 모니터를 연결했을 때는 강제로 내장 모니터 전환이 불가능하다.  
+  
 듀얼 모니터 환경을 구축하고 싶은 분은 이런 단점을 충분히 고려해 결정하자.  
   
 **맥북프로에 외장 모니터를 연결해 사용할 경우 단점**   
