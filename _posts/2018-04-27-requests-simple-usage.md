@@ -37,7 +37,7 @@ u'{"type":"User"...'
 
 # 상세 설명
   
-**GET 메소드 사용**
+**GET 메소드 사용**  
 [requests.get(url, params=None, **kwargs)](http://docs.python-requests.org/en/master/api/#requests.get)
 ~~~
 def get(url, params=None, **kwargs):
@@ -54,7 +54,7 @@ def get(url, params=None, **kwargs):
     return request('get', url, params=params, **kwargs)
 ~~~
   
-**POST 메소드 사용**
+**POST 메소드 사용**  
 [requests.post(url, data=None, json=None, **kwargs)](http://docs.python-requests.org/en/master/api/#requests.post)
 ~~~
 def post(url, data=None, json=None, **kwargs):
@@ -71,7 +71,7 @@ def post(url, data=None, json=None, **kwargs):
     return request('post', url, data=data, json=json, **kwargs)
 ~~~
   
-**requests 메소드 사용**  
+**requests 메소드 사용**    
 위의 get, post의 구현을 보면 결국 request메소드를 쓰기 쉽게 랩핑(Wrapping)한 것임을 알 수 있다.  
   
 ~~~
