@@ -7,8 +7,6 @@ comments: true
   
 ---
   
-> 아래 내용은 [공식 사이트](http://docs.python-requests.org/)에서 일부 발췌, 번역한 것입니다. 
-  
 # 간단 사용법
 아래 예제는 [공식 사이트](http://docs.python-requests.org/en/master/)에서 발췌했다. [여기](https://gist.github.com/kennethreitz/973705)에서 urllib2를 쓸 때와 비교해 얼마나 더 간결하게 코딩할 수 있는지 확인할 수 있다.  
     
