@@ -15,12 +15,12 @@ Django(장고)를 배울 때 잊을만하면 눈에 띄는 라이브러리가 �
 ---
 
 ## 사용법  
-**1/3)설치**   
+**1/3) 설치**   
 ~~~
 pip install django-debug-toolbar
 ~~~
 
-**2/3)설정(settings.py)**   
+**2/3) 설정(settings.py)**   
 ~~~
 ## 설치 앱에 추가 (django.contrib.staticfiles는 기본으로 있을 수도 있다.)
 INSTALLED_APPS = [
@@ -43,7 +43,7 @@ STATIC_URL = '/static/'
 INTERNAL_IPS = ('127.0.0.1',)
 ~~~
 
-**3/3)프로젝트 레벨 URL 설정(urls.py)**    
+**3/3) 프로젝트 레벨 URL 설정(urls.py)**    
 ~~~
 from django.conf import settings
 from django.conf.urls import include, url
