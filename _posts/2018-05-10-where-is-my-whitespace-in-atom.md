@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 아콤(Atom) 에디터에서 자꾸 공백이 사라질 때
+title: 아콤(Atom) 에디터에서 자꾸 공백이 사라질 때 해결 방법
 tags: editor
 comments: true
 ---
