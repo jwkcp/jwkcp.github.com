@@ -5,6 +5,8 @@ tags: django deployment
 comments: true
 ---
   
+> 이 글은 장고(Django) 공식 페이지의 글을 번역한 것입니다. 원문은 [여기](https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/)를 참고하세요.  
+    
 인터넷은 긴장을 늦출 수 없는 공간입니다. 장고 프로젝트를 인터넷에 공개하려 한다면 그전에 보안, 성능, 운영 등을 고려한 설정을 점검하는 시간을 반드시 가질 필요가 있습니다.  
   
 장고는 많은 [보안 옵션](https://docs.djangoproject.com/en/2.0/topics/security/)을 내장하고 있습니다. 어떤 것들은 기본적으로 활성화되어 있고, 또 어떤 것들은 그렇지 않습니다. 모든 환경에 적합하지 않거나 개발할 때 불편하기 때문이죠. 예를 들어, 모든 웹사이트에 HTTPS를 강제로 사용하도록 하는 것은 좋지 않습니다. 그리고 로컬 개발 환경에서 그러는 것은 비현실적이죠.  
