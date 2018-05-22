@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django(장고) 배포 가이드(번역) - 3. 아파치 서버와 mod_wsgi 사용법
+title: Django(장고) 배포 가이드(번역) - 4. 아파치 서버와 mod_wsgi 사용법
 tags: django deployment
 comments: true
 ---
@@ -140,5 +140,5 @@ Require all granted
 ---
   
 ## 아파치에서 장고(Django) 사용자 데이터베이스 인증하기
-장고(Django)는 아파치가 장고의 인증 백엔드 *(인증을 위해 장고는 여러 방법을 제공하고 있는데 그것을 제공하는 방법의 명칭을 백엔드(backend)라고 함)* 를 이용해 직접 사용자 인증을 처리할 수 있도록 핸들러를 제공하고 있습니다.[mod_wsgi 인증 문서](https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/apache-auth/)를 살펴보세요. 
+장고(Django)는 아파치가 장고의 인증 백엔드 *(인증을 위해 장고는 여러 방법을 제공하고 있는데 그것을 제공하는 방법의 명칭을 백엔드(backend)라고 함)* 를 이용해 직접 사용자 인증을 처리할 수 있도록 핸들러를 제공하고 있습니다.[mod_wsgi 인증 문서](https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/apache-auth/)를 살펴보세요.
    

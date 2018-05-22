@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django(장고) 배포 가이드(번역) - 2. 배포 체크리스트
+title: Django(장고) 배포 가이드(번역) - 3. 배포 체크리스트
 tags: django deployment
 comments: true
 ---
