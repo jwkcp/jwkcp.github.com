@@ -68,6 +68,15 @@ set role 사용자명;
 grant all privileges on database 데이터베이스명 to 사용자명;
 ~~~
   
+## 현재 사용자 조회
+~~~
+select current_user;
+~~~
+  
+## 모든 사용자 조회
+~~~
+\du 또는 \du+
+    
 ---
   
 # 기타
@@ -76,7 +85,3 @@ grant all privileges on database 데이터베이스명 to 사용자명;
 \conninfo
 ~~~
   
-## 현재 사용자 조회
-~~~
-select current_user;
-~~~
