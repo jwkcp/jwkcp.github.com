@@ -21,7 +21,7 @@ ImportError: cannot import name 'main'
   
 *sudo pip install pip --upgrade 같은 명령으로 무심코 시스템 pip를 업그레이드 한 것이 원인입니다. pip 10.x은 내부적으로 위치해야 할 곳을 정하게 되어 있으며, pip3 명령은 pip에 의해 관리되는 파일이 아니라 패키지 관리자에 의해 제공되는 파일입니다. 더 자세한 정보는 [여기](https://github.com/pypa/pip/issues/5221)를 참고하세요.   
    
-시스템 pip를 업그레이드 하지 않고 virtualenv를 사용하고 싶다면 아래의 명령으로 pip3를 복구해야 합니다.  
+시스템 pip를 업그레이드 하지 않고 virtualenv를 사용하고 싶다면 아래의 명령으로 pip3를 복구해야 합니다.*  
   
 ~~~
 sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
