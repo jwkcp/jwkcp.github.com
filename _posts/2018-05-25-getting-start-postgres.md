@@ -92,7 +92,7 @@ select current_user;
 \conninfo
 ~~~
   
-## 로케일, 인코딩(Encoding), Collate, Ctype 변경 (한글 깨짐 해결하기)
+## 로케일, 인코딩(Encoding) (한글 깨짐 해결하기)
 **기본 인코딩 설정 위치**
 ~~~
 sudo vi /etc/postgresql/9.5/main
@@ -104,6 +104,13 @@ lc_numeric = 'ko_KR.UTF-8'
 lc_time = 'ko_KR.UTF-8'
 ~~~
   
+## Collate, Ctype 변경
+> 필요한 경우에만 변경하세요. 경우에 따라서 sudo -u postgres psql 을 통해 로그인 시 아래와 같은 메시지의 에러가 발생할 수 있습니다.
+  
+> psql: FATAL:  database locale is incompatible with operating system
+DETAIL:  The database was initialized with LC_COLLATE "ko_KR.UTF-8",  which is not recognized by setlocale().
+HINT:  Recreate the database with another locale or install the missing locale.
+
 **Collate, Ctype 변경하기**
 ~~~
 update pg_database
