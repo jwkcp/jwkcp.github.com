@@ -6,7 +6,7 @@ comments: true
 ---
   
 # 문제
-sudo apt-get -y install supervisor 와 같이 어떤 패키지를 설치할 때 로케일 에러가 발생하는 경우가 있다. 이 때 아래 내용을 참고하여 자신에게 맞는 로케일 환경을 설정해주면 해결 가능하다.  
+sudo apt-get -y install supervisor 또는 sudo systemctl enable supervisor 와 같이 어떤 패키지를 설치할 때 로케일 에러가 발생하는 경우가 있다. 이 때 아래 내용을 참고하여 자신에게 맞는 로케일 환경을 설정해주면 해결 가능하다.  
     
 # 방법
 ## 로케일 생성과 기본 로케일 설정
