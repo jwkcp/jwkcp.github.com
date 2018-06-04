@@ -29,10 +29,16 @@ sudo systemctl start 내서비스이름
 ~~~
 sudo systemctl stop 내서비스이름
 sudo systemctl disable 내서비스이름
+~~~
 
 ---
 
 ## 불필요한 서비스 삭제
 ~~~
 sudo systemctl reset-failed
+~~~
+
+## 자세한 오류 및 기록 확인
+~~~
+sudo journalctl | grep 내서비스이름
 ~~~
