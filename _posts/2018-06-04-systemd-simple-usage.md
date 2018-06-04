@@ -29,3 +29,10 @@ sudo systemctl start 내서비스이름
 ~~~
 sudo systemctl stop 내서비스이름
 sudo systemctl disable 내서비스이름
+
+---
+
+## 불필요한 서비스 삭제
+~~~
+sudo systemctl reset-failed
+~~~
