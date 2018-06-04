@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 우분트에서 systemd 간단 사용법
+title: 우분투(ubuntu)에서 systemd 간단 사용법
 tags: ubuntu systemd
 comments: true
 ---
