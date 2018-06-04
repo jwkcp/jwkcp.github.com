@@ -38,6 +38,8 @@ sudo systemctl disable 내서비스이름
 sudo systemctl reset-failed
 ~~~
 
+---
+
 ## 자세한 오류 및 기록 확인
 ~~~
 sudo journalctl | grep 내서비스이름
