@@ -95,7 +95,7 @@ select current_user;
 ## 로케일, 인코딩(Encoding) (한글 깨짐 해결하기)
 **기본 인코딩 설정 위치**
 ~~~
-sudo vi /etc/postgresql/9.5/main
+sudo vi /etc/postgresql/9.5/main/postgresql.conf
 
 에서 client_encoding = 'ko_KR.UTF-8'
 lc_messages = 'ko_KR.UTF-8'
