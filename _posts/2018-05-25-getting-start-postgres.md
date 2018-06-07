@@ -97,7 +97,8 @@ select current_user;
 ~~~
 sudo vi /etc/postgresql/9.5/main/postgresql.conf
 
-에서 client_encoding = 'ko_KR.UTF-8'
+에서 
+client_encoding = 'ko_KR.UTF-8'
 lc_messages = 'ko_KR.UTF-8'
 lc_monetary = 'ko_KR.UTF-8'
 lc_numeric = 'ko_KR.UTF-8'
