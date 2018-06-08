@@ -70,12 +70,12 @@ mysql가 함께 많이 사용되는 데이터베이스. 레퍼런스와 트러�
 # 장고 공식 문서의 배포 가이드 번역
 관련 내용을 살펴보고 처음 적용해보면서 어차피 보는 거 번역해두면 좋겠다 싶었다.  
   
-[Django(장고) 배포 가이드(번역) - 1. 시작하기](https://jwkcp.github.io/2018/05/20/deployment-start/)
-[Django(장고) 배포 가이드(번역) - 2. WSGI를 이용해 배포하기](https://jwkcp.github.io/2018/05/20/deployment-wsgi/)
-[Django(장고) 배포 가이드(번역) - 3. 배포 체크리스트](https://jwkcp.github.io/2018/05/11/deployment-checklist-for-django/)
-[Django(장고) 배포 가이드(번역) - 4. 아파치 서버와 mod_wsgi 사용법](https://jwkcp.github.io/2018/05/21/deployment-mod-wsgi/)
-[Django(장고) 배포 가이드(번역) - 6. Gunicorn 사용법](https://jwkcp.github.io/2018/05/23/deployment-gunicorn/)
-[Django(장고) 배포 가이드(번역) - 7. uWSGI 사용법](https://jwkcp.github.io/2018/05/23/deployment-uwsgi/)
+- [Django(장고) 배포 가이드(번역) - 1. 시작하기](https://jwkcp.github.io/2018/05/20/deployment-start/)
+- [Django(장고) 배포 가이드(번역) - 2. WSGI를 이용해 배포하기](https://jwkcp.github.io/2018/05/20/deployment-wsgi/)
+- [Django(장고) 배포 가이드(번역) - 3. 배포 체크리스트](https://jwkcp.github.io/2018/05/11/deployment-checklist-for-django/)
+- [Django(장고) 배포 가이드(번역) - 4. 아파치 서버와 mod_wsgi 사용법](https://jwkcp.github.io/2018/05/21/deployment-mod-wsgi/)
+- [Django(장고) 배포 가이드(번역) - 6. Gunicorn 사용법](https://jwkcp.github.io/2018/05/23/deployment-gunicorn/)
+- [Django(장고) 배포 가이드(번역) - 7. uWSGI 사용법](https://jwkcp.github.io/2018/05/23/deployment-uwsgi/)
 
 ---
   
