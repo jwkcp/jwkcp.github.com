@@ -56,7 +56,7 @@ systemd를 사용해 gunicorn을 구동하고 gunicorn 스크립트를 통해 vi
 sudo apt-get -y install build-essential libpq-dev python3-dev postgresql postgresql-contrib, nginx
 ~~~
   
-## ngnix
+## nginx
 웹서버. apache와 함께 가장 많이 쓰이는 웹서버다. gunicorn 서비스를 127.0.0.1:8000과 같이 바인딩하면 nginx가 sites-enabled의 설정 파일을 통해 관련 외부 요청을 연결시켜준다. 외부 사용자 요청을 nginx가 받아서 systemd로 띄운 gunicorn을 django를 통해 처리 후 되돌려 주는 것이다.   
  
 ## postgresql
