@@ -42,9 +42,9 @@ comments: true
   
 > systemd는 일부 리눅스 배포판에서 유닉스 시스템 V나 BSD init 시스템 대신 사용자 공간을 부트스트래핑하고 최종적으로 모든 프로세스들을 관리하는 init 시스템이다. systemd라는 이름 뒤에 추가된 d는 유닉스에서의 데몬을 나타낸다.
   
-[![2018-06-08_1.53.11.png](https://s26.postimg.cc/5k6q7ruft/2018-06-08_1.53.11.png)](https://postimg.cc/image/op9zhj93p/)
+[![2018-06-08_2.12.17.png](https://s26.postimg.cc/ww1z904ah/2018-06-08_2.12.17.png)](https://postimg.cc/image/vh0eka379/)
   
-**참고: 환경변수가 적용되는 시점을 잘 생각하자.**
+**참고: 환경변수가 적용되는 시점을 잘 생각하자.**  
 systemd를 사용해 gunicorn을 구동하고 gunicorn 스크립트를 통해 virtualenv를 활성화함과 동시에 환경변수를 설정하도록 했다면 systemd가 환경변수를 참조하도록 하면 안된다. 그러면 빈 값을 참조할 것이고 systemd의 status 명령 결과는 늘 failed인 상태가 될 것이다. .bashrc나 .zshrc, .bash_profile 등에 환경변수를 넣었다면 해당 명령이 실행되는 시점, 예를 들어 사용자 로그인 시점이라든지, 쉘 실행 시점 등을 주의할 필요가 있다. 지금은 당연한 내용이라고 생각할 수 있지만 나중에 골탕먹기 쉽다.  
    
 ---
