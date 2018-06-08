@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: 우분투에서 장고(Django) 배포 경험담
 tags: ubuntu django
