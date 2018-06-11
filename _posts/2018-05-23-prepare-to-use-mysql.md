@@ -30,21 +30,31 @@ mysql -u root -p
   
 ## 사용자 생성
 ~~~
-create user testuser@localhost identified by 'mypassword';
+create user 'testuser'@'localhost' identified by 'mypassword';
+~~~
+  
+## 사용자 보기
+~~~
+select user, host from user;
 ~~~
   
 ## 사용자 삭제
 ~~~
-drop user testuser@localhost;
+drop user 'testuser'@'localhost';
 ~~~
   
 ---
   
 ## 권한 부여
 ~~~
-grant all privileges on testdb.* to testuser@localhost;
+grant all privileges on testdb.* to 'testuser'@'localhost';
 ~~~
   
+## 권한 보기
+~~~
+show grants for 'testuser'@'localhost';
+~~~
+   
 ---
   
 ## 인코딩 설정 확인
