@@ -11,19 +11,19 @@ comments: true
   
 > **알아두기**  
 2018.05.23 현재 Django에서 mysql을 쓰기 위해 사용하는 mysqlclient 패키지가 mysql 8.0 버전에서는 'my_bool' 에러가 발생하면 정상적으로 동작하지 않는다. 따라서 이 오류가 발생하고 mysqlclient 라이브러리도 mysql 8.0에 대응하지 않고 있다면 8.0 이상이 아닌 5.7 이하를 설치해야 이 오류를 피할 수 있다.
-
----
-  
-## 데이터베이스 생성
-~~~
-create database testdb;
-~~~
   
 ---
   
 ## 데이터베이스 접속
 ~~~
 mysql -u root -p
+~~~
+
+---
+
+## 데이터베이스 생성
+~~~
+create database testdb;
 ~~~
   
 ---
@@ -71,6 +71,39 @@ status
 ## 인코딩 변경
 ~~~
 set character_set_client = utf8;
+~~~
+  
+---
+
+## 특정 데이터베이스, 테이블 인코딩 보기
+~~~
+show create database 데이터베이스명;
+show create table 테이블명;
+~~~
+
+---
+
+## 특정 데이터베이스, 테이블 인코딩 변경
+~~~
+alter database 데이터베이스명 character set = 'utf8mb4';
+alter table 테이블명 character set = 'utf8mb4';
+~~~
+
+---
+
+## my.cnf로 기본값을 일괄 변경
+~~~
+[client]
+default-character-set=utf8
+
+[mysqld]
+character-set-server=utf8
+collation-server=utf8_general_ci
+init_connect=SET collation_connection=utf8_general_ci
+init_connect=SET NAMES utf8
+
+[mysql]
+default-character-set=utf8
 ~~~
   
 > **일러두기**  
