@@ -18,7 +18,7 @@ comments: true
 | 언어          | Javascript | HTML | CSS |
 | 프레임워크      | Node.js | Angular | React |
 | 데이터베이스    | MySQL | SQL Server | PostgresSQL |
-| 플랫폼        | Linux | Windows | Android ||
+| 플랫폼        | Linux | Windows | Android |
 
 ---
 
