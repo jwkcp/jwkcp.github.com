@@ -26,6 +26,9 @@ comments: true
 여전한 Python의 인기. Xamarin보다 React, TensorFlow와 Torch/PyTorch로 엿보이는 딥러닝의 인기. Mysql의 후퇴와 PostgresSQL의 약진, Elasticsearch에 대해 좀 찾아봐야지. 역시 Linux, 대단한 Windows. Visual Studio Code 대단해, Notepad++ 우와, jetbrain의 위력.
       
 ### 언어
+| 항목          | 1위     | 2위     | 3위     |
+| :---          |  :---   | :---    | :---    |
+
 | 항목 | 1위 | 2위 | 3위 |
 |---
 | 선호 | Rust | Kotlin | Python |
