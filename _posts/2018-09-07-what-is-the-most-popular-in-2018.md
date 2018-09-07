@@ -27,7 +27,7 @@ comments: true
       
 ### 언어
 | 항목 | 1위 | 2위 | 3위 |
-| :--- | :--- | :--- | :--- |
+|---
 | 선호 | Rust | Kotlin | Python |
 | 비선호 | Visual Basic 6 | Cobol | CoffeeScript |
 | 희망 | Python | Javascript | Go |
