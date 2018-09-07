@@ -19,9 +19,7 @@ comments: true
 | 프레임워크      | Node.js | Angular | React |
 | 데이터베이스    | MySQL | SQL Server | PostgresSQL |
 | 플랫폼        | Linux | Windows | Android |
-
----
-
+     
 ## 선호하는 기술
   **간단 메모**    
 > - 여전한 Python의 인기. 
@@ -31,8 +29,7 @@ comments: true
 > - Elasticsearch에 대해 좀 찾아봐야지. 
 > - 역시 Linux, 대단한 Windows.
 > - Visual Studio Code 대단해, Notepad++ 우와, jetbrain의 위력.
-
-
+     
 ### 언어
 
 | 항목 | 1위 | 2위 | 3위 |
@@ -40,9 +37,7 @@ comments: true
 | 선호 | Rust | Kotlin | Python |
 | 비선호 | Visual Basic 6 | Cobol | CoffeeScript |
 | 희망 | Python | Javascript | Go |
-
----
-
+     
 ### 라이브러리
      
 | 항목 | 1위 | 2위 | 3위 |
@@ -50,9 +45,7 @@ comments: true
 | 선호 | TensorFlow | React | Torch/PyTorch |
 | 비선호 | Cordova | Xamarin | Hadoop |
 | 희망 | React | Node.js | TensorFlow |
-
----
-
+     
 ### 데이터베이스
 
 | 항목 | 1위 | 2위 | 3위 |
@@ -60,9 +53,7 @@ comments: true
 | 선호 | Redis | PostgresSQL | Elasticsearch |
 | 비선호 | IBM Db2 | Oracle | Memcached |
 | 희망 | MongoDB | Elasticsearch | PostgresSQL |
-
----
-
+     
 ### 플랫폼
 
 | 항목 | 1위 | 2위 | 3위 |
@@ -70,9 +61,7 @@ comments: true
 | 선호 | Linux | Serverless | AWS |
 | 비선호 | SharePoint | Drupal | Salesforce |
 | 희망 | Android | Raspberry Pi | AWS |
-
----
-
+     
 ### 개발툴
 
 | 항목 | 1위 | 2위 | 3위 | 4위 | 5위 |
@@ -81,16 +70,12 @@ comments: true
 | Web | Visual Studio Code | Visual Studio | Notepad++ | Sublime Text | IntelliJ |
 | Mobile | Android Studio | Visual Studio Code | Xcode | Visual Studio | Notepad++ |
 | Sysadmin/DevOps | Vim | Visual Studio Code | Notepad++ | Sublime Text | IntelliJ ||
-
----
-
+     
 ### 주력으로 사용하는 운영체제
 
 | 항목 | 1위 | 2위 | 3위 |
 | :-- | :-- | :-- | :-- |
 | OS | Windows(48.9%) | MacOS(26.7%) | Linux-based(23.2%) ||
-
----
-
+     
 ### 모니터는 몇 개나 쓰나?
 2개 (51.1%)
