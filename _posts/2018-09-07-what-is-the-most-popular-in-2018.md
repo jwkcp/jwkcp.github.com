@@ -31,7 +31,8 @@ comments: true
 > - Elasticsearch에 대해 좀 찾아봐야지. 
 > - 역시 Linux, 대단한 Windows.
 > - Visual Studio Code 대단해, Notepad++ 우와, jetbrain의 위력.
-        
+
+
 ### 언어
 
 | 항목 | 1위 | 2위 | 3위 |
@@ -53,6 +54,7 @@ comments: true
 ---
 
 ### 데이터베이스
+
 | 항목 | 1위 | 2위 | 3위 |
 | :-- | :-- | :-- | :-- |
 | 선호 | Redis | PostgresSQL | Elasticsearch |
