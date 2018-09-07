@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 스택오버플로우에서 조사한 개발자들에게 가장 인기 있는 도구 및 언어 
+title: 2018년 개발자들에게 가장 인기 있는 도구 및 언어(스택오버플로우 설문 기반)
 tags: statistics
 comments: true
 ---
