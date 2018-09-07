@@ -30,7 +30,7 @@ comments: true
 | :--- | :--- | :--- | :--- |
 | 선호 | Rust | Kotlin | Python |
 | 비선호 | Visual Basic 6 | Cobol | CoffeeScript |
-| 희망 | Python | Javascript | Go ||
+| 희망 | Python | Javascript | Go |
 
 ---
 
