@@ -14,7 +14,7 @@ comments: true
 웹 기술이 전체적으로 상위권에 있고 Mysql이 1위 PostgresSQL이 3위인 것이 눈에 띈다. C#이 한국과 다르게 인기가 많은 편이었다.
       
 | 항목          | 1위     | 2위     | 3위     |
-| :--          |  :--   | :--    | :--    |
+| :---          |  :---   | :---    | :---    |
 | 언어          | Javascript | HTML | CSS |
 | 프레임워크      | Node.js | Angular | React |
 | 데이터베이스    | MySQL | SQL Server | PostgresSQL |
@@ -27,7 +27,7 @@ comments: true
       
 ### 언어
 | 항목 | 1위 | 2위 | 3위 |
-| :-- | :-- | :-- | :-- |
+| :--- | :--- | :--- | :--- |
 | 선호 | Rust | Kotlin | Python |
 | 비선호 | Visual Basic 6 | Cobol | CoffeeScript |
 | 희망 | Python | Javascript | Go ||
