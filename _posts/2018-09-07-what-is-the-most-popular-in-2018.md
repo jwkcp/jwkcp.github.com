@@ -64,6 +64,7 @@ comments: true
 ---
 
 ### 플랫폼
+
 | 항목 | 1위 | 2위 | 3위 |
 | :-- | :-- | :-- | :-- |
 | 선호 | Linux | Serverless | AWS |
@@ -73,6 +74,7 @@ comments: true
 ---
 
 ### 개발툴
+
 | 항목 | 1위 | 2위 | 3위 | 4위 | 5위 |
 | :-- | :-- | :-- | :-- | :-- | :-- |
 | All | Visual Studio Code | Visual Studio | Notepad++ | Sublime Text | Vim |
@@ -83,6 +85,7 @@ comments: true
 ---
 
 ### 주력으로 사용하는 운영체제
+
 | 항목 | 1위 | 2위 | 3위 |
 | :-- | :-- | :-- | :-- |
 | OS | Windows(48.9%) | MacOS(26.7%) | Linux-based(23.2%) ||
