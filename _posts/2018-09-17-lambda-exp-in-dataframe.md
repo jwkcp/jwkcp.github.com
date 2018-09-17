@@ -17,3 +17,4 @@ series.apply(lambda x: x**2)
 series.apply(lambda x: 'old' if x >= 20 else 'new')
 ~~~
      
+- 참고자료: [pandas.Series.apply](https://pandas.pydata.org/pandas-docs/version/0.18/generated/pandas.Series.apply.html)
