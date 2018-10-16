@@ -21,14 +21,19 @@ eslint --init
 
 위와 같이 초기설정을 하면 몇 가지 질문이 나온다. 답변은 자신이 원하는 것을 선택하면 되는데 1번은 대략 아래와 같이 선택하는 경우가 많고, 2번은 standard나 airbnb의 선호도가 갈린다. 3번은 리액트 사용 여부, 4번은 원하는 언어를 선택하면 되는데 아마 이 글을 읽는 분 대부분이 javascript를 사용하고 계신 것일테니 javascript를 택하시면 된다.
 
-1. How would you like to configure ESLint?   
+1. How would you like to configure ESLint?    
 **Use a popular style guide**   
     
-2. Which style guide do you want to follow?
+2. Which style guide do you want to follow?     
 **standard** or **airbnb**
 
-3. Do you use React?
+3. Do you use React?    
 **Yes** or **No**
 
+4. What format do you want your config file to be in?   
+**Javascript**
+
+# 플러그인
+vscode와 같은 코드 편집기를 사용하고 있다면 eslint를 지원하는 플러그인이 있다. 이를 이용하면 훨씬 편리하게 eslint를 이용할 수 있다.
 
 ---
