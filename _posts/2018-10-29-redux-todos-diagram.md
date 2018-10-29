@@ -8,7 +8,7 @@ comments: true
 [리덕스 공식 사이트의 예제 페이지](https://redux.js.org/introduction/examples)에 보면 Todos라는 예제가 있다. 단순 리덕스를 사용하는 것을 넘어 react-redux와 함께 컨테이너, 컴포넌트와 함께 사용하는 첫 예제인데 처음 보면 그 구조가 잘 그려지지 않는다. 잘게 나누어진 폴더와 파일들이 머릿속을 어지럽히기 때문이다. Todos 예제의 이해하기 쉽게 그림으로 그려본 것이다. 소스 구조는 [여기](https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/todos)를 누르면 바로 볼 수 있다.
     
 ## 그림으로 보는 프로젝트 구조    
-[![redux-todos-image.png](https://i.postimg.cc/TwdkQ6Cq/redux-todos-image.png)](https://postimg.cc/4K0bNrCm)
+[![2018-10-29-6-07-41.png](https://i.postimg.cc/nzvf6pJs/2018-10-29-6-07-41.png)](https://postimg.cc/hzPYmFhg)
 
 ---
 
