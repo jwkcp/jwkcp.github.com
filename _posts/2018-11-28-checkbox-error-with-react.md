@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 리액트에서 체크박스 사용 시 에러가 발생할 때
+title: 리액트에서 체크박스 사용 시 에러가 발생할 때 해결방법
 tags: react
 comments: true
 ---
