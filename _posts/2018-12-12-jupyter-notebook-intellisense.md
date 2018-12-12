@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 주피터 노트북(Jupyter Notebook)에서 인텔리센스 사용하기
-tags: jupyter
+tags: jupyter deeplearning
 comments: true
 ---
 
