@@ -9,4 +9,4 @@ comments: true
 
 ---
 
-[![react-redux-architecture.png](https://s26.postimg.cc/n72hhrl15/react-redux-architecture.png)](https://postimg.cc/image/njtvny3at/)
+[![react-redux-architecture.png](https://i.postimg.cc/Zq96Y3pk/react-redux-architecture.png)](https://postimg.cc/WDvdXd5S)
