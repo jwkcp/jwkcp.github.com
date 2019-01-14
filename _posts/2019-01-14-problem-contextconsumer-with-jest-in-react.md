@@ -1,7 +1,7 @@
 ---
 layout: post
-title: jest를 이용해 스냅샷을 만들면 자꾸 ContextConsumer가 나오는 문제
-tags: react jest
+title: enzyme을 이용해 스냅샷을 만들면 자꾸 ContextConsumer가 나오는 문제
+tags: react jest enzyme
 comments: true
 ---
 
