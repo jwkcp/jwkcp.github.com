@@ -11,9 +11,9 @@ comments: true
    - GPU: 384.x 또는 그 이후 버전
    - CUDA: 9.0
    - cuDNN SDK: >= 7.2
-3. [CUDA 9.0을 설치](https://developer.nvidia.com/cuda-90-download-archive)하려면 그에 맞는 운영체제를 설치해야 하는데 우분투(Ubuntu)의 경우 17.04와 16.04를 지원한다.
+3. [CUDA 9.0을 설치](https://developer.nvidia.com/cuda-90-download-archive)하려면 그에 맞는 운영체제를 설치해야 하는데 우분투(Ubuntu)의 경우 17.04와 16.04를 지원합니다.
 
-4. [cuDNN](https://developer.nvidia.com/cudnn)을 설치할 때는 엔비디아 회원가입이 필요하다. 가입 후 설치 목록에 보면 .deb 패키지를 제공하는 버전이 16.04가 가장 최신이다. 다른 버전은 cuDNN Library for Linux를 설치하고 환경설정 등을 직접 해줘야 한다.
+4. [cuDNN](https://developer.nvidia.com/cudnn)을 설치할 때는 엔비디아 회원가입이 필요하다. 가입 후 설치 목록에 보면 .deb 패키지를 제공하는 버전이 16.04가 가장 최신이다. 다른 버전은 cuDNN Library for Linux를 설치하고 환경설정 등을 직접 해줘야 합니다.
 
 **만약 자신이 딥러닝이 목표이고 우분투 최신 버전(18.04)를 꼭 사용안해도 되며 환경설정에 시간을 쓰고 싶지 않다면 아래 버전으로 설치하길 권한다.**
 
