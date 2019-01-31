@@ -54,6 +54,37 @@ apt-key는 쉽게 말해 저장소가 유효한지 인증해주는 절차다. ap
 ## 마지막 명령 apt-get install cuda는?
 이제 apt-get install cuda를 하면 cuda 패키지가 설치되는 걸 볼 수 있다. dpkg -i 과정을 통해 1.cuda 저장소가 추가되었고 2.관련 파일이 설치되며 .pub 키가 생겼고 3.이를 등록했다. 4.apt-get update로 필요한 파일도 업데이트 되었다. 마지막으로 apt-get install cuda를 통해 cuda도 apt-get 패키지 매니저가 관리할 수 있게 된 것이다. 
 
+# cuDNN
+
+## Runtime vs Developer 어떤 걸 설치해야 하나?
+[cuDNN을 설치](https://developer.nvidia.com/rdp/cudnn-download)하려고 Ubuntu 16.04에 맞는 버전을 찾으면 아래 3개 패키지가 나온다. 물론 cuDNN Library for Linux를 이용해 설치해도 된다. 하지만 .deb로 설치하는게 더 편하다.)
+
+> cuDNN Runtime Library for Ubuntu16.04 (Deb)
+> cuDNN Developer Library for Ubuntu16.04 (Deb)
+> cuDNN Code Samples and User Guide for Ubuntu16.04 (Deb)
+
+뭘 설치해야 할까? 단순히 tensorflow(혹은 tensorflow-gpu)를 돌리기 위해선 runtime만으로도 충분하다. 하지만 cuDNN이 제대로 설치되었는지 확인하려면 Code Samples이 필요하고 Code Sample을 돌리려고 하면 Developer Library가 필요하다고 나온다. 따라서 샘플 코드로 cuDNN 설치 검증까지 하고 싶은 사람은 Developer 버전을 설치하면 된다.
+   
+설치는 아래와 같이 하면 되고,
+```
+sudo dpkg -i 파일명.deb
+```
+
+검증은 순서는 아래와 같다.
+```
+# 1.쓰기(Write) 가능한 위치로 샘플 코드 복사 후 이동
+cp -r /usr/src/cudnn_samples_v7/ $HOME
+cd $HOME/cudnn_samples_v7/mnistCUDNN
+
+# 2.샘플코드 컴파일
+make clean && make
+
+# 3.샘플코드 실행 후 Test passed! 라는 메시지가 나오면 성공
+./mnistCUDNN
+```
+
+더 자세한 정보는 [공식 설치 문서](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html)를 참조.
+
 --
 리눅스를 메인으로 처음 사용하다보니 .deb 파일과 dpkg, apt-get, apt-key 그리고 관련 메커니즘에 대해 잘 몰랐는데 이번 기회에 많이 배웠다. 나는 조금 귀찮더라도 그대로 명령을 따라 치는 것이 아니라 왜 그런지 알아두려고 노력하는 편이다. 그러면 괴로움은 두고 두고 즐거움이 되며 실력으로 쌓인다.
 
