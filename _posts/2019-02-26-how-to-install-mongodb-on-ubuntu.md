@@ -44,10 +44,10 @@ sudo service mongod start
 
 ---
 ## 발생할 수 있는 에러와 해결 방법
-1. sudo: serivce: command not found   
-**sudo serivce mongod start**명령을 하면 위와 같이 명령을 찾을 수 없다고 나온다.
+1. **sudo: serivce: command not found**   
+sudo serivce mongod start명령을 하면 위와 같이 명령을 찾을 수 없다고 나온다.
 
-2. Failed to start mongod.service: Unit mongod.service not found   
+2. **Failed to start mongod.service: Unit mongod.service not found**   
 mongod 서비스를 실행하려고 하면 서비스 시작을 실패했다고 나온다.
 
 ---
