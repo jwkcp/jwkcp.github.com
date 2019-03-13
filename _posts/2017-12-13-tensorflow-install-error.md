@@ -30,5 +30,5 @@ comments: true
 - Python 3.4, 3.5, 3.6
 - Python 2.7
     
-최신 지원 정보는 [텐서플루오 공식 페이지](https://www.tensorflow.org/install/pip?lang=python3)에서 확인하실 수 있습니다.
+최신 지원 정보는 [텐서플로우 공식 페이지](https://www.tensorflow.org/install/pip?lang=python3)에서 확인하실 수 있습니다.
      
