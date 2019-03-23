@@ -7,13 +7,13 @@ comments: true
 
 비트나미(bitnami)로 워드프레스를 설치하면 보안 상 기본적으로 phpmyadmin을 localhost를 통해서만 접근하도록 제한하고 있다. 아래 명령을 터미널에서 실행하여 로컬 컴퓨터에서도 phpmyadmin을 사용할 수 있다.
 
-** .pem 확장자의 키 파일 방식을 이용하는 경우**
+**.pem 확장자의 키 파일 방식을 이용하는 경우**
 
 ```
 ssh -N -L 8888:127.0.0.1:80 -i KEYFILE bitnami@SERVER-IP
 ```
 
-** 비밀번호 방식을 이용하는 경우**
+**비밀번호 방식을 이용하는 경우**
 
 ```
 ssh -N -L 8888:127.0.0.1:80 bitnami@SERVER-IP
