@@ -5,7 +5,7 @@ tags: react-native
 comments: true
 ---
 
-##문제
+## 문제
 파일 감시 수가 제한치에 도달하면 아래와 같은 에러가 발생한다.
 ```
 $ expo start
@@ -28,6 +28,6 @@ Error: ENOSPC: System limit for number of file watchers reached, watch '/home/my
     at FSReqWrap.args [as oncomplete] (fs.js:140:20)
 ```
     
-##해결방법
+## 해결방법
 현재 file watchers 최대치가 몇으로 되어있는지 확인하려면 ```cat /proc/sys/fs/inotify/max_user_watches```를 터미털에 입력하면 된다. 최대 사이즈를 늘리려면 ```/etc/sysctl.conf```파일을 열어 제일 마지막에 ```fs.inotify.max_user_watches=524288```를 추가해준다. 다시 실행해보면 에러가 발생하지 않는다.
       
