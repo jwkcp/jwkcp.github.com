@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 리액트(React) 개발할 때 어떤 디렉토리 구조가 제일 좋은가요?
-tags: wordpress
+tags: react advice
 comments: true
 ---
 
