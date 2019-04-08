@@ -32,7 +32,7 @@ defaults:
     scope:
       path: ""
     values:
-      redirect_to: https://devlog.jwgo.kr
+        redirect_to: https://devlog.jwgo.kr{{ page.url }}
 
 gems: 
   - jekyll-paginate
