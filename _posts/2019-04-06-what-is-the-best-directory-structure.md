@@ -2,6 +2,7 @@
 layout: post
 title: 리액트(React) 개발할 때 어떤 디렉토리 구조가 제일 좋은가요?
 tags: react advice
+redirect_to: https://devlog.jwgo.kr
 comments: true
 ---
 
