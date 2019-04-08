@@ -5,3 +5,5 @@ _site/
 .idea
 _data/
 assets/
+
+.DS_Store
