@@ -1,17 +1,17 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: pretty
 
 # This has been commented out with a related jekyll 3 issue 2017.01.24
 # relative_permalinks: true
 
 # Setup
-title:               Tonic
-tagline:             '''s lesson learned'
-description:         'Lessons learned in developing some useful things.'
-url:                 https://jwkcp.github.io
-baseurl:             ''
+title: Tonic
+tagline: "'s lesson learned"
+description: "Lessons learned in developing some useful things."
+url: https://jwkcp.github.io
+baseurl: ""
 
 # gems: [jekyll-paginate]
 # paginate:            5
@@ -19,29 +19,22 @@ baseurl:             ''
 
 # About/contact
 author:
-  name:              Tony
-  url:               http://jwgo.kr
-  email:             jaewoong.go@gmail.com
+    name: Tony
+    url: http://jwgo.kr
+    email: jaewoong.go@gmail.com
 
 # Custom vars
-version:             1.0.0
-motto:               'Keep looking, Don''t settle.'
+version: 1.0.0
+motto: "Keep looking, Don't settle."
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-        redirect_to: "https://devlog.jwgo.kr{{ page.url }}"
-
-gems: 
-  - jekyll-paginate
-  - jekyll-redirect-from
+gems:
+    - jekyll-paginate
+    - jekyll-redirect-from
 
 whitelist:
-  - jekyll-redirect-from
+    - jekyll-redirect-from
 
-paginate:            1
+paginate: 1
 paginate_path: "page:num"
 
 # DISQUS
