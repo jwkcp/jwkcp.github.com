@@ -28,10 +28,11 @@ version:             1.0.0
 motto:               'Keep looking, Don''t settle.'
 
 
-gems: [jekyll-paginate]
-# plugins_dirs: [jekyll-paginate] 
+gems: 
+  - jekyll-paginate
+#  - jekyll-redirect-from
+
 plugins_dirs:
-#   - jekyll-paginate
   - jekyll-redirect-from
 paginate:            1
 paginate_path: "page:num"
