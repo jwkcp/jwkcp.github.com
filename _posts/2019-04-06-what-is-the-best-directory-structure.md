@@ -3,6 +3,7 @@ layout: post
 title: 리액트(React) 개발할 때 어떤 디렉토리 구조가 제일 좋은가요?
 tags: react advice
 comments: true
+redirect_to: https://devlog.jwgo.kr{{ page.url }}
 ---
 
 오랜 기간 개발해 온 언어 또는 프로젝트의 경우 자신만의 디렉토리 구조가 있거나 팀에서 사용하는 구조가 있을 경우 그 방법을 따르면 된다. 하지만 새로 배워 시작하려는 경우 어떤 디렉토리 구조를 가지는 것이 최선인가는 늘 고민거리다. 외부 라이브러리부터, 이미지, JSON파일과 같은 데이터, js, css, 기타 설정 파일 등을 어떻게 배치하고 구성하면 좋을까.
