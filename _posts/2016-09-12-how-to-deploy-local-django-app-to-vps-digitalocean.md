@@ -21,8 +21,8 @@ comments: true
  
 뭔가를 하기 전에, 어떤 패키지 관리자를 사용하든 항상 패키지를 최신 상태로 유지하는 것은 좋은 습관입니다. SSH를 통해 VPS에 접속하여 아래의 명령을 실행할 수 있습니다.
  
->sudo apt-get update
->sudo apt-get upgrade
+> sudo apt-get update
+> sudo apt-get upgrade
  
 첫 번째 명령은 apt-get로 관리되는 패키지의 업데이트를 다운로드 합니다. 두 번째 명령은 다운로드한 업데이트를 설치합니다. 위 명령을 실행하면 설치할 업데이트가 있을 경우 설치 할지 말지에 대한 표시가 나타납니다. 이 표시가 나타나면 “y”를 누르고 “엔터”키를 입력하세요.
 
@@ -38,8 +38,8 @@ comments: true
 > virtualenv /opt/myproject
 
 이제 가상환경을 구성했으니, 이제 가상환경을 활성화하고 장고와 필요한 다른 파이썬 패키지를 pip를 통해 설치합니다. 아래의 예제는 어떻게 가상환경을 활성화하고 pip를 이용해 장고를 설치하는 예제입니다.
->source /opt/myproject/bin/activate   
->pip install django
+> source /opt/myproject/bin/activate   
+> pip install django
 
 자, 이제 이 프로젝트의 데이터베이스를 생성할 준비가 됐습니다.
 
@@ -77,7 +77,7 @@ NGINX에서는, 사이트 웹서버 설정 파일을 생성하고 수정하기 �
 
 이제 에디터를 열어 아래 코드를 입력합니다.
 
-{% highlight html %}
+```
 server {
     server_name yourdomainorip.com;
 
@@ -94,8 +94,8 @@ server {
         add_header P3P 'CP="ALL DSP COR PSAa PSDa OUR NOR ONL UNI COM NAV"';
     }
 }
-{% endhighlight %}
-  
+```  
+
 저장하고 빠져나갑니다.    
 위 설정은 장고 프로젝트에서 구성한 정적 파일 디렉토리인 yourdomainorip.com/static/으로 요청되는 모든 요청에 응답하도록 되어 있습니다. yourdomainorip.com의 8001포트로 들어오는 모든 요청은 Gunicorn(혹은, 선택한)이 대신 처리합니다. 다른 줄은 Gunicorn이 통과시킬 호스트명과 IP주소에 대한 것입니다. 이렇게 하지 않으면 모든 요청의 IP주소는 127.0.0.1과 VPS 호스트명으로 설정됩니다.
 
@@ -183,7 +183,7 @@ settings 파일이 열리면, DEBUG 항목을 False로 설정합니다.
 
 이제 데이터베이스 구성을 수정할 차례입니다. 아래에 보여지는 항목에서 데이터베이스명, 사용자명 그리고 비밀번호 부분을 여러분들의 정보에 맞게 입력하겠습니다.
 
-{% highlight apache config files %}
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
@@ -195,7 +195,7 @@ DATABASES = {
         'PORT': '',                      # Set to empty string for default.
     }
 }
-{% endhighlight %}
+```
 
 이제 정적 파일 설정을 수정할 차례입니다.
 
@@ -212,4 +212,5 @@ DATABASES = {
 
 `이 문서는 VPS 서비스를 제공하는 디지털오션(DigitalOcean)의 문서를 번역한 것입니다. 오역이 있을 수도 있으므로 위의 원문 링크를 꼭 참고하세요.`   
 
-원문 링크: [디지털오션(DigitalOcean)의 문서 바로가기](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-local-django-app-to-a-vps "디지털오션(DigitalOcean)의 문서")
+원문 링크: [디지털오션(DigitalOcean)의 문서 바로가기](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-local-django-app-to-a-vps)
+      

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ImproperlyConfigured: The SECRET_KEY settings must not be empty 에러가 발생하는 이유
+title: ImproperlyConfigured The SECRET_KEY settings must not be empty 에러가 발생하는 이유
 tags: django
 comments: true
 ---
@@ -14,3 +14,4 @@ settings.py를 폴더 아래로 옮겼거나, 파일명을 바꿨거나 했다�
 manage.py(개발환경)이나 wsgi.py(운영환경)의 DJANGO_SETTINGS_MODULE가 변경(했을 것으로 예상됩니다만..)한 설정 파일을 잘 참고하도록 되어 있는지 다시 확인하시기 바랍니다.   
 
 이 에러는 경로든, 명칭이든 간에 settings.py가 잘못되었을 확률이 백프로라고 보시면 크게 틀리지 않습니다.   
+   
