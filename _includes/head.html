@@ -8,9 +8,9 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+    {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+    {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
 
@@ -22,7 +22,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
@@ -41,13 +42,13 @@
   {% include google_adsense_page_level.html %}
   <!-- Google Adsense Page Level End -->
 
-  <!--
+  <!-- https://devlog.jwgo.kr 로 개별 포스팅을 리다이렉션하기 위해 삽입 -->
   <meta http-equiv="refresh" content="0; url=https://devlog.jwgo.kr{{ page.url }}" />
   <script>
-      if (window.location.href.indexOf('https://jwkcp.github.io{{ page.url }}') === 0) {
+    if (window.location.href.indexOf('https://jwkcp.github.io{{ page.url }}') === 0) {
       window.location.href = 'https://devlog.jwgo.kr{{ page.url }}';
     }
   </script>
   <link rel="canonical" href="https://devlog.jwgo.kr{{ page.url }}" />
-  -->
+
 </head>
