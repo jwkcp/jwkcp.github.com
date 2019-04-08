@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+redirect_to: https://devlog.jwgo.kr
 ---
 
 <p class="message">
