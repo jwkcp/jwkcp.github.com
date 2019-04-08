@@ -42,5 +42,10 @@
   <!-- Google Adsense Page Level End -->
 
   <meta http-equiv="refresh" content="0; url=https://devlog.jwgo.kr{{ page.url }}" />
+  <script>
+      if (window.location.href.indexOf('https://jwkcp.github.io{{ page.url }}') === 0) {
+      window.location.href = 'https://devlog.jwgo.kr{{ page.url }}';
+    }
+  </script>
   <link rel="canonical" href="https://devlog.jwgo.kr{{ page.url }}" />
 </head>
